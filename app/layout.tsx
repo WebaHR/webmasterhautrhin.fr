@@ -9,15 +9,16 @@ import CookieConsent from "@/components/CookieConsent";
 type="application/ld+json"
 dangerouslySetInnerHTML={{
 __html: JSON.stringify({
-"@context": "https://schema.org",
-"@type": "ProfessionalService",
-"name": "Webmaster Haut-Rhin",
-"url": "https://webmasterhautrhin.fr",
-"description":
-"Création de sites internet, référencement SEO et maintenance dans le Haut-Rhin.",
-"areaServed": {
-"@type": "AdministrativeArea",
-"name": "Haut-Rhin"
+ "@context":"https://schema.org",
+ "@type":"ProfessionalService",
+ "name":"Webmaster Haut-Rhin",
+ "description":
+ "Création de sites internet, référencement SEO et maintenance dans le Haut-Rhin.",
+ "url":"https://webmasterhautrhin.fr",
+ "areaServed":"Haut-Rhin",
+ "telephone":"+33663608012",
+ "priceRange":"€€",
+ "sameAs":[]
 },
 "serviceType": [
 "Création de site internet",
