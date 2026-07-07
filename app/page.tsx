@@ -10,31 +10,8 @@ import {
   IllustrationMaintenance,
 } from "@/components/Illustrations";
 
-export const metadata: Metadata = {
-  title: "Création de site internet dans le Haut-Rhin | Webmaster Haut-Rhin",
-  description:
-    "Webmaster dans le Haut-Rhin : création de sites internet sur mesure, sites e-commerce, référencement SEO, hébergement et maintenance pour les entreprises locales.",
-  keywords: [
-    "création site internet Haut-Rhin",
-    "webmaster Haut-Rhin",
-    "création site vitrine",
-    "site e-commerce Alsace",
-    "référencement naturel Haut-Rhin",
-    "SEO local",
-  ],
-  alternates: {
-    canonical: "https://webmasterhautrhin.fr/",
-  },
-  openGraph: {
-    title: "Création de site internet dans le Haut-Rhin",
-    description:
-      "Des sites internet rapides, modernes et optimisés pour Google pour les entreprises du Haut-Rhin.",
-    url: "https://webmasterhautrhin.fr/",
-    siteName: "Webmaster Haut-Rhin",
-    locale: "fr_FR",
-    type: "website",
-  },
-};
+export const metadata = {
+
 export default function Home() {
   return (
     <>
