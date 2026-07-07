@@ -14,7 +14,7 @@ export default function Hero() {
     <section className="relative overflow-hidden border-b border-line">
       <h1 className="mt-8 text-center font-display text-4xl font-semibold text-ink sm:text-5xl md:text-6xl lg:text-7xl">
   Webmaster
-  <span className="text-accent"> hautrhin</span>
+  <span className="text-accent"> haut-rhin</span>
 </h1>
           <h2 className="eyebrow text-center">Webmaster indépendant — Mulhouse · Colmar · Haut-Rhin</h2>
       <div className="mx-auto grid max-w-content gap-12 px-6 py-16 sm:py-20 lg:grid-cols-[1fr_1fr] ">
