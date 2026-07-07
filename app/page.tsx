@@ -2,6 +2,7 @@ import Image from "next/image";
 import Hero from "@/components/Hero";
 import ServiceSection from "@/components/ServiceSection";
 import type { Metadata } from "next";
+
 import {
   IllustrationCreation,
   IllustrationEcommerce,
@@ -11,12 +12,17 @@ import {
 } from "@/components/Illustrations";
 
 export const metadata = {
+  title: "Mon site",
+  description: "Description de mon site",
+};
 
 export default function Home() {
   return (
     <>
       <Hero />
-
+    </>
+  );
+}
       <section className="step-gradient border-t border-white/10 border-b border-line bg-paperdim/40 py-6">
         <p className="text-center font-mono text-lg uppercase text-gray-300">
           Le parcours d&apos;un projet web, du premier trait à la maintenance
