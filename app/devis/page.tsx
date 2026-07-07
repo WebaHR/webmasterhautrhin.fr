@@ -15,13 +15,13 @@ const process = [
   },
   {
     n: "02",
-    title: "Nous vous rappelons",
+    title: "Je vous rappelle",
     text: "Un échange court, par téléphone ou sur place, pour affiner vos besoins.",
   },
   {
     n: "03",
     title: "Vous recevez votre devis",
-    text: "Un devis détaillé et sans surprise, sous 24h ouvrées après notre échange.",
+    text: "Un devis détaillé et sans surprise, sous 48h après notre échange.",
   },
 ];
 
