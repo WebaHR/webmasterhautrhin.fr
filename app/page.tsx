@@ -63,7 +63,7 @@ export default function Home() {
           
           illustration={<Image
                       src="/images/creationsiteinternet.png"
-                      alt="Description de l'image"
+                      alt="création de site internet dans le haut rhin"
                       width={800}
                       height={600}
                       className="rounded-lg"
@@ -86,7 +86,7 @@ export default function Home() {
           ]}
           illustration={<Image
                       src="/images/creationsiteecommerce.png"
-                      alt="Description de l'image"
+                      alt="Création de boutique en ligne e-commerce dans le Haut-Rhin"
                       width={800}
                       height={600}
                       className="rounded-lg"
@@ -109,7 +109,7 @@ export default function Home() {
           ]}
           illustration={<Image
                       src="/images/referencementsiteinternet.png"
-                      alt="Description de l'image"
+                      alt="Optimisation SEO et référencement naturel Google pour entreprise locale"
                       width={800}
                       height={600}
                       className="rounded-lg"
@@ -131,7 +131,7 @@ export default function Home() {
           ]}
           illustration={<Image
                       src="/images/hebergementsiteinternet.png"
-                      alt="Description de l'image"
+                      alt="Hébergement sécurisé de site internet avec certificat SSL"
                       width={800}
                       height={600}
                       className="rounded-lg"
@@ -153,7 +153,7 @@ export default function Home() {
           ]}
           illustration={<Image
                       src="/images/maintenancesiteinternet.png"
-                      alt="Description de l'image"
+                      alt="Maintenance et sécurité de site internet professionnel"
                       width={800}
                       height={600}
                       className="rounded-lg"
