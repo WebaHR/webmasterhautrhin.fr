@@ -69,7 +69,7 @@ export default function Home() {
                       className="rounded-lg"
                     />}
           imageSide="left"
-          href="/creation-site"
+          href="/creation-site-internet"
           
         />
 
