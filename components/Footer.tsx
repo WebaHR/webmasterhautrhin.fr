@@ -19,7 +19,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2 text-sm text-paper/75">
              <li><Link href="/" className="hover:text-paper">Accueil</Link></li>
               <li><Link href="/creation-site-internet" className="hover:text-paper">Création de site internet</Link></li>
-              <li><Link href="/creation-site#ecommerce" className="hover:text-paper">Site e-commerce</Link></li>
+              <li><Link href="/creation-site-internet#ecommerce" className="hover:text-paper">Site e-commerce</Link></li>
               <li><Link href="/referencement" className="hover:text-paper">Référencement (SEO)</Link></li>
               <li><Link href="/#hebergement" className="hover:text-paper">Hébergement</Link></li>
               <li><Link href="/#maintenance" className="hover:text-paper">Maintenance</Link></li>
