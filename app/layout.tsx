@@ -85,24 +85,7 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  name: "Webmaster Haut-Rhin",
-  description:
-    "Création de sites internet, référencement SEO et maintenance dans le Haut-Rhin.",
-  url: "https://webmasterhautrhin.fr",
-  telephone: "+33663608012",
-  areaServed: "Haut-Rhin",
-  priceRange: "€€",
-  serviceType: [
-    "Création de site internet",
-    "Référencement SEO",
-    "Développement Next.js",
-    "Maintenance WordPress",
-    "Hébergement web",
-  ],
-};
+
 
 export default function RootLayout({
   children,
