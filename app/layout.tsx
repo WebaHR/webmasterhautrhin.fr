@@ -1,34 +1,12 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, Inter, IBM_Plex_Mono } from "next/font/google";
+import Script from "next/script";
+
 import "./globals.css";
+
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CookieConsent from "@/components/CookieConsent";
-
-<script
-type="application/ld+json"
-dangerouslySetInnerHTML={{
-__html: JSON.stringify({
- "@context":"https://schema.org",
- "@type":"ProfessionalService",
- "name":"Webmaster Haut-Rhin",
- "description":
- "Création de sites internet, référencement SEO et maintenance dans le Haut-Rhin.",
- "url":"https://webmasterhautrhin.fr",
- "areaServed":"Haut-Rhin",
- "telephone":"+33663608012",
- "priceRange":"€€",
- "sameAs":[]
-},
-"serviceType": [
-"Création de site internet",
-"SEO",
-"Hébergement web",
-"Maintenance"
-]
-})
-}}
-/>
 
 const display = Space_Grotesk({
   subsets: ["latin"],
@@ -52,14 +30,77 @@ const mono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Webmaster Haut-Rhin — Création de sites internet & référencement",
+  metadataBase: new URL("https://webmasterhautrhin.fr"),
+
+  title: {
+    default: "Webmaster Haut-Rhin | Création de site internet & Référencement SEO",
+    template: "%s | Webmaster Haut-Rhin",
+  },
+
   description:
-    "Agence web indépendante dans le Haut-Rhin : création de sites internet, e-commerce, référencement local, hébergement et maintenance. Devis gratuit sous 24h.",
+    "Webmaster indépendant dans le Haut-Rhin. Création de sites internet, référencement naturel SEO, maintenance WordPress et développement Next.js à Mulhouse, Colmar, Saint-Louis et partout en Alsace.",
+
   keywords: [
-    "webmaster Haut-Rhin",
-    "création site internet Mulhouse",
-    "référencement Colmar",
-    "agence web Alsace",
+    "webmaster haut-rhin",
+    "webmaster mulhouse",
+    "création site internet haut-rhin",
+    "création site internet mulhouse",
+    "référencement haut-rhin",
+    "référencement mulhouse",
+    "développeur next.js alsace",
+    "maintenance wordpress",
+  ],
+
+  alternates: {
+    canonical: "/",
+  },
+
+  openGraph: {
+    title: "Webmaster Haut-Rhin",
+    description:
+      "Création de sites internet, référencement naturel SEO et développement Next.js dans le Haut-Rhin.",
+    url: "https://webmasterhautrhin.fr",
+    siteName: "Webmaster Haut-Rhin",
+    locale: "fr_FR",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Webmaster Haut-Rhin",
+    description:
+      "Création de sites internet et référencement SEO dans le Haut-Rhin.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+      "max-snippet": -1,
+    },
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  name: "Webmaster Haut-Rhin",
+  description:
+    "Création de sites internet, référencement SEO et maintenance dans le Haut-Rhin.",
+  url: "https://webmasterhautrhin.fr",
+  telephone: "+33663608012",
+  areaServed: "Haut-Rhin",
+  priceRange: "€€",
+  serviceType: [
+    "Création de site internet",
+    "Référencement SEO",
+    "Développement Next.js",
+    "Maintenance WordPress",
+    "Hébergement web",
   ],
 };
 
@@ -69,11 +110,26 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className={`${display.variable} ${body.variable} ${mono.variable}`}>
-      <body className="text-ink font-body">
+    <html
+      lang="fr"
+      className={`${display.variable} ${body.variable} ${mono.variable}`}
+    >
+      <body className="font-body text-ink">
+        <Script
+          id="schema-professional-service"
+          type="application/ld+json"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLd),
+          }}
+        />
+
         <Header />
+
         <main>{children}</main>
+
         <Footer />
+
         <CookieConsent />
       </body>
     </html>
