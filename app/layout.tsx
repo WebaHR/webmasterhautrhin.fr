@@ -98,23 +98,16 @@ export default function RootLayout({
       className={`${display.variable} ${body.variable} ${mono.variable}`}
     >
       <body className="font-body text-ink">
-        <Script
-          id="schema-professional-service"
-          type="application/ld+json"
-          strategy="beforeInteractive"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(jsonLd),
-          }}
-        />
+  <JsonLd />
 
-        <Header />
+  <Header />
 
-        <main>{children}</main>
+  <main>{children}</main>
 
-        <Footer />
+  <Footer />
 
-        <CookieConsent />
-      </body>
+  <CookieConsent />
+</body>
     </html>
   );
 }
