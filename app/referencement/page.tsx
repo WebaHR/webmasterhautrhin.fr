@@ -6,7 +6,7 @@ import { IllustrationSeo } from "@/components/Illustrations";
 export const metadata: Metadata = {
   title: "Référencement de site internet dans le Haut-Rhin | Webmaster Haut-Rhin",
   description:
-    "Référencement de site internet dans le Haut-Rhin : améliorez votre visibilité sur Google à Mulhouse, Colmar et alentours grâce au référencement naturel (SEO) et local. Audit gratuit.",
+    "Référencement de site internet dans le Haut-Rhin : améliorez votre visibilité sur Google à Mulhouse, Colmar et alentours grâce au référencement naturel (SEO) et local.",
   keywords: [
     "référencement de site internet",
     "référencement site internet Haut-Rhin",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Référencement de site internet dans le Haut-Rhin | Webmaster Haut-Rhin",
     description:
-      "Améliorez votre visibilité sur Google dans le Haut-Rhin : référencement naturel, fiche établissement optimisée et suivi de position. Audit gratuit sous 24h.",
+      "Améliorez votre visibilité sur Google dans le Haut-Rhin : référencement naturel, fiche établissement optimisée et suivi de position.",
     url: PAGE_URL,
     siteName: SITE_NAME,
     locale: "fr_FR",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Référencement de site internet dans le Haut-Rhin | Webmaster Haut-Rhin",
     description:
-      "Améliorez votre visibilité sur Google dans le Haut-Rhin grâce au référencement naturel et local. Audit gratuit sous 24h.",
+      "Améliorez votre visibilité sur Google dans le Haut-Rhin grâce au référencement naturel et local.",
     images: [OG_IMAGE],
   },
   robots: {
