@@ -73,15 +73,14 @@ export default function Hero() {
           <p className="eyebrow text-center mt-6">Wordpress · Woocommerce · Prestashop · Next.js</p>
           <p className="eyebrow text-center">SEO · SEA · Hébergement · Maintenance</p>
         </div>
-        
-      </div>
-      <h2>
+       <h2 className="mt-4 font-display text-4xl font-semibold leading-[1.08] tracking-tight text-ink sm:text-5xl lg:text-[2.5rem]">
 Nos services de création de site internet dans le Haut-Rhin
 </h2>
 
 <p>
 Nous accompagnons les entreprises alsaciennes...
-</p>
+</p> 
+      </div>
     </section>
   );
 }
