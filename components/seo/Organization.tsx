@@ -9,7 +9,7 @@ export const organization = {
 
   url: "https://webmasterhautrhin.fr",
 
-  logo: "https://webmasterhautrhin.fr/logo.png",
+  logo: "https://webmasterhautrhin.fr/images/webmasterhautrhin-2.png",
 
   sameAs: [],
 };
