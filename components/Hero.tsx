@@ -80,7 +80,8 @@ Nos services de création de site internet dans le Haut-Rhin
 </h2>
 
 <p>
-Nous accompagnons les entreprises alsaciennes...
+J'accompagne les indépendants du haut-Rhin et de l'Alsace dans l'amélioration de leur visibilité par la mise en place d'actions adaptées à leur métier.
+  L'objectif étant d'élargir le champ d'action en captant une clientèle par l'intermédiaire d'internet.
 </p> </div> 
     </section>
   );
