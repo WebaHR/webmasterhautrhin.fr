@@ -76,5 +76,15 @@ export default function Hero() {
         
       </div>
     </section>
+    <section>
+<h2>
+Nos services de création de site internet dans le Haut-Rhin
+</h2>
+
+<p>
+Nous accompagnons les entreprises alsaciennes...
+</p>
+
+</section>
   );
 }
