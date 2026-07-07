@@ -75,13 +75,13 @@ export default function Hero() {
         </div>
         
       </div>
-    </section>
-<h2>
+      <h2>
 Nos services de création de site internet dans le Haut-Rhin
 </h2>
 
 <p>
 Nous accompagnons les entreprises alsaciennes...
 </p>
+    </section>
   );
 }
