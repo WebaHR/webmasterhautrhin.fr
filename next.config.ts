@@ -2,8 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-};
-async redirects() {
+
+  async redirects() {
     return [
       {
         source: "/creation-de-site-internet-haut-rhin",
