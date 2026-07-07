@@ -8,7 +8,7 @@ export const professionalService = {
 
   url: "https://webmasterhautrhin.fr",
 
-  image: "https://webmasterhautrhin.fr/logo.png",
+  image: "https://webmasterhautrhin.fr/images/webmasterhautrhin-2.png",
 
   telephone: "+33663608012",
 
