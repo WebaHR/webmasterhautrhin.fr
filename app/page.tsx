@@ -54,7 +54,9 @@ export default function Home() {
           index="01"
           eyebrow="Étape 1 — Conception"
           title="Création de site internet"
-          description="Un site vitrine sur mesure, pensé pour votre activité et vos clients : design sobre, contenu clair, chargement rapide et parfaitement lisible sur mobile."
+          description="Création de site internet professionnel dans le Haut-Rhin pour artisans,
+commerçants et entreprises locales. Nous réalisons des sites rapides,
+modernes et optimisés pour le référencement Google.."
           bullets={[
             "Design personnalisé, sans thème générique",
             "Textes rédigés avec vous, optimisés pour vos clients",
