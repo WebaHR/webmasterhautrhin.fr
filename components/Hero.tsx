@@ -12,7 +12,7 @@ const stats = [
 export default function Hero() {
   return (
     <section className="relative overflow-hidden border-b border-line">
-      <h1 className="mt-8 text-center font-display text-2xl font-semibold text-ink sm:text-5xl md:text-6xl lg:text-2xl">
+      <h1 className="mt-8 text-center font-display text-3xl font-semibold text-ink sm:text-5xl md:text-6xl lg:text-3xl">
   Création de site internet
         dans le
   <span className="text-accent"> haut-rhin</span>
@@ -20,7 +20,7 @@ export default function Hero() {
           <h2 className="eyebrow text-center">Webmaster indépendant — Mulhouse · Colmar · Haut-Rhin</h2>
       <div className="mx-auto grid max-w-content gap-12 px-6 py-16 sm:py-20 lg:grid-cols-[1fr_1fr] ">
         <div className="fade-up">
-          <p className="mt-4 font-display text-4xl font-semibold leading-[1.08] tracking-tight text-ink sm:text-5xl lg:text-[3.2rem]">
+          <p className="mt-4 font-display text-4xl font-semibold leading-[1.08] tracking-tight text-ink sm:text-5xl lg:text-[2.8rem]">
             Un site internet qui travaille  pour vous et pas l'inverse.
           </p>
           <p className="mt-6 max-w-xl text-base text-justify leading-relaxed text-slate sm:text-lg">
