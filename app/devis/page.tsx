@@ -16,13 +16,13 @@ const process = [
   },
   {
     n: "02",
-    title: "Je vous rappelle",
+    title: "Nous vous rappelons",
     text: "Un échange court, par téléphone ou sur place, pour affiner vos besoins.",
   },
   {
     n: "03",
     title: "Vous recevez votre devis",
-    text: "Un devis détaillé et sans surprise, sous 48h après notre échange.",
+    text: "Un devis détaillé et sans surprise, sous 24h ouvrées après notre échange.",
   },
 ];
 
@@ -30,17 +30,18 @@ export default function DevisPage() {
   return (
     <>
       <Breadcrumbs items={[{ label: "Demande de devis" }]} />
-    <section className="py-16 sm:py-20">
+      <section className="py-16 sm:py-20">
       <div className="mx-auto max-w-content px-6">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
           <div>
+            <p className="eyebrow">Demande de devis</p>
             <h1 className="section-heading mt-3 text-3xl text-ink sm:text-4xl">
-              Discutons de votre projet Web.
+              Discutons de votre projet.
             </h1>
             <p className="mt-5 max-w-md leading-relaxed text-slate">
               Que vous partiez d&apos;une page blanche ou souhaitiez faire
-              évoluer un site existant, faîtes-moi part de votre projet : je vous 
-              contacterai rapidement avec des recommandations concrètes.
+              évoluer un site existant, décrivez-nous votre besoin : nous
+              revenons vers vous rapidement avec des recommandations concrètes.
             </p>
 
             <div className="mt-10 space-y-8 border-t border-line pt-8">
@@ -56,10 +57,10 @@ export default function DevisPage() {
             </div>
 
             <div className="mt-10 rounded-2xl border border-line bg-paperdim/60 p-6">
-              <p className="font-mono text-xs uppercase tracking-wide text-slate">Me contacter directement</p>
+              <p className="font-mono text-xs uppercase tracking-wide text-slate">Nous contacter directement</p>
               <p className="mt-2 text-sm text-ink">
-                <a href="tel:+33663608012" className="font-medium hover:text-accent">
-                  06 63 60 80 12
+                <a href="tel:+33389000000" className="font-medium hover:text-accent">
+                  03 89 00 00 00
                 </a>
               </p>
               <p className="mt-1 text-sm text-ink">
@@ -75,5 +76,6 @@ export default function DevisPage() {
         </div>
       </div>
     </section>
+    </>
   );
 }
