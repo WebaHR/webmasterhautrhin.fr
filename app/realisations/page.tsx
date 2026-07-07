@@ -18,6 +18,8 @@ type Project = {
   layout: Layout;
   result: ReactNode;
   description: ReactNode;
+  relatedHref: string;
+  relatedLabel: string;
 };
 
 const projects: Project[] = [
@@ -27,7 +29,12 @@ const projects: Project[] = [
     location: "Ribeauvillé",
     layout: "none",
     result: (
-      <a href="https://surya-ayurveda-yoga.fr/" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://surya-ayurveda-yoga.fr/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-accent hover:text-accentdeep hover:underline"
+      >
         Voir le site
       </a>
     ),
@@ -37,6 +44,8 @@ const projects: Project[] = [
         <p className="eyebrow mt-6 text-center">Wordpress · Optimisation SEO · Hébergement · Maintenance </p>
       </>
     ),
+    relatedHref: "/creation-site-internet",
+    relatedLabel: "Voir la prestation création de site",
   },
   {
     name: "Vente de produits personnalisables",
@@ -44,15 +53,23 @@ const projects: Project[] = [
     location: "Arengosse",
     layout: "none",
     result: (
-      <a href="https://cpersonnalisable.com/" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://cpersonnalisable.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-accent hover:text-accentdeep hover:underline"
+      >
         Voir le site
       </a>
     ),
-    description:
+    description: (
       <>
         Création du site ecommerce sur Woocommerce sur la base d'un thème Wordpress. Produits personnalisables.
         <p className="eyebrow mt-6 text-center">Woocommerce · Optimisation SEO · Hébergement · Maintenance </p>
-      </>,
+      </>
+    ),
+    relatedHref: "/creation-site-internet#ecommerce",
+    relatedLabel: "Voir la prestation e-commerce",
   },
   {
     name: "Expert en bâtiment",
@@ -60,15 +77,23 @@ const projects: Project[] = [
     location: "Linxe",
     layout: "none",
     result: (
-      <a href="https://gf-expertise.fr/" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://gf-expertise.fr/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-accent hover:text-accentdeep hover:underline"
+      >
         Voir le site
       </a>
     ),
-    description:
+    description: (
       <>
-        Création personnalisée du site vitrine dans le domaine de l'expetrtise en bâtiment.
+        Création personnalisée du site vitrine dans le domaine de l'expertise en bâtiment.
         <p className="eyebrow mt-6 text-center">Wordpress · Optimisation SEO · SEA · Hébergement · Maintenance </p>
       </>
+    ),
+    relatedHref: "/creation-site-internet",
+    relatedLabel: "Voir la prestation création de site",
   },
   {
     name: "Location de logements insolites",
@@ -76,48 +101,71 @@ const projects: Project[] = [
     location: "St-Martin-de-Hinx",
     layout: "none",
     result: (
-      <a href="https://landifornia-lodge.com/" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://landifornia-lodge.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-accent hover:text-accentdeep hover:underline"
+      >
         Voir le site
       </a>
     ),
-    description:
+    description: (
       <>
         Création du site Ecommerce sous Woocommerce. Gestion des réservations et paiements en ligne.
         <p className="eyebrow mt-6 text-center">Woocommerce · Optimisation SEO · SEA · Hébergement · Maintenance </p>
-      </>,
-        },
+      </>
+    ),
+    relatedHref: "/creation-site-internet#ecommerce",
+    relatedLabel: "Voir la prestation e-commerce",
+  },
   {
     name: "Vente de produits de décoration et artisanat local",
     category: "Site e-commerce",
     location: "Mont-de-Marsan",
     layout: "none",
     result: (
-      <a href="https://landifornia-lodge.com/" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://landifornia-lodge.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-accent hover:text-accentdeep hover:underline"
+      >
         Voir le site
       </a>
     ),
-
-     description:
+    description: (
       <>
-        Création du site Ecommerce sous Prestahop. Catalogue de plus de 500 références
+        Création du site Ecommerce sous Prestashop. Catalogue de plus de 500 références.
         <p className="eyebrow mt-6 text-center">Prestashop · Hébergement · Maintenance </p>
-      </>,
-        },
+      </>
+    ),
+    relatedHref: "/creation-site-internet#ecommerce",
+    relatedLabel: "Voir la prestation e-commerce",
+  },
   {
     name: "Vente de produits artisanaux",
     category: "Site e-commerce",
     location: "Mugron",
     layout: "none",
     result: (
-      <a href="https://www.rouge-garance.fr/" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://www.rouge-garance.fr/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-accent hover:text-accentdeep hover:underline"
+      >
         Voir le site
       </a>
     ),
-    description:
+    description: (
       <>
-        Pas de création ni de refonte. Uniquement un upgrade d'un site Ecommerce Prestashop de la version 7.4 à la version 8.2. 
+        Pas de création ni de refonte. Uniquement un upgrade d'un site Ecommerce Prestashop de la version 7.4 à la version 8.2.
         <p className="eyebrow mt-6 text-center">Prestashop · Upgrade · BDD · Fichiers sources </p>
-      </>,
+      </>
+    ),
+    relatedHref: "/creation-site-internet#ecommerce",
+    relatedLabel: "Voir la prestation e-commerce",
   },
 ];
 
@@ -136,7 +184,6 @@ export default function RealisationsPage() {
             de votre entreprise. Voici quelques exemples représentatifs des
             projets que j'ai réalisés.
           </p>
-         
         </div>
       </section>
 
@@ -161,7 +208,7 @@ export default function RealisationsPage() {
                 <p className="mt-2 text-sm leading-relaxed text-slate">
                   {project.description}
                 </p>
-                <p className="mt-4 border-t border-line pt-3 text-sm font-medium text-ink">
+                <p className="mt-4 border-t border-line pt-3 text-sm font-medium">
                   {project.result}
                 </p>
                 <Link
@@ -175,10 +222,11 @@ export default function RealisationsPage() {
             </article>
           ))}
         </div>
-        <p className=" mt-6 sm:text-2xl text-center">
-            Il y en a beaucoup d'autres mais je ne peux pas tous les mettre. 
-            <br />Pour voir plus de réalisation, contactez-moi !
-          </p>
+        <p className="mt-6 text-center sm:text-2xl">
+          Il y en a beaucoup d'autres mais je ne peux pas tous les mettre.
+          <br />
+          Pour voir plus de réalisations, contactez-moi !
+        </p>
       </section>
 
       <section className="bg-ink py-16 text-paper sm:py-20">
@@ -244,6 +292,14 @@ function Mockup({ layout }: { layout: Layout }) {
               <div className="h-14 rounded-md bg-accentlight" />
               <div className="h-6 w-24 rounded-full bg-ink/85" />
             </div>
+          </div>
+        )}
+
+        {layout === "none" && (
+          <div className="space-y-2 p-4">
+            <div className="h-16 rounded-md bg-paperdim" />
+            <div className="h-2 w-2/3 rounded bg-slate/15" />
+            <div className="h-2 w-1/2 rounded bg-slate/10" />
           </div>
         )}
       </div>
