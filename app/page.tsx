@@ -163,7 +163,15 @@ modernes et optimisés pour le référencement Google.."
           imageSide="left"
         />
       </div>
+<div className="mx-auto grid max-w-content gap-12 px-6 py-16">
+      <h2 className="mt-4 font-display text-4xl font-semibold leading-[1.08] tracking-tight text-ink sm:text-5xl lg:text-[2.5rem] text-center">
+Mes services de création de site internet dans le Haut-Rhin
+</h2>
 
+<p className="text-center">
+J'accompagne les indépendants du haut-Rhin et de l'Alsace dans l'amélioration de leur visibilité par la mise en place d'actions adaptées à leur métier.
+  L'objectif étant d'élargir le champ d'action en captant une clientèle par l'intermédiaire d'internet.
+</p> </div> 
       <section className="bg-ink py-16 text-paper sm:py-20">
         <div className="mx-auto max-w-content px-6 text-center">
           <p className="eyebrow text-gold">Prêt à démarrer ?</p>
