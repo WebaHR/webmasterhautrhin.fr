@@ -7,6 +7,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CookieConsent from "@/components/CookieConsent";
+import JsonLd from "@/components/seo/JsonLd";
 
 const display = Space_Grotesk({
   subsets: ["latin"],
