@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import Link from "next/link";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Nos réalisations — Webmaster Haut-Rhin",
@@ -123,6 +124,7 @@ const projects: Project[] = [
 export default function RealisationsPage() {
   return (
     <>
+      <Breadcrumbs items={[{ label: "Réalisations" }]} />
       <section className="border-b border-line py-16 sm:py-20">
         <div className="mx-auto max-w-content px-6">
           <p className="eyebrow">Quelques unes de mes réalisations</p>
@@ -162,6 +164,13 @@ export default function RealisationsPage() {
                 <p className="mt-4 border-t border-line pt-3 text-sm font-medium text-ink">
                   {project.result}
                 </p>
+                <Link
+                  href={project.relatedHref}
+                  className="mt-3 inline-flex items-center gap-1.5 text-xs font-medium text-accent hover:text-accentdeep hover:underline"
+                >
+                  {project.relatedLabel}
+                  <span aria-hidden>→</span>
+                </Link>
               </div>
             </article>
           ))}
