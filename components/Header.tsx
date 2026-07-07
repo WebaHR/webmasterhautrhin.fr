@@ -82,7 +82,7 @@ export default function Header() {
             className="mt-2 rounded-full bg-accent px-5 py-2.5 text-center text-sm font-medium text-white"
             onClick={() => setOpen(false)}
           >
-            Demander un devis
+            Me contacter
           </Link>
         </nav>
       )}
