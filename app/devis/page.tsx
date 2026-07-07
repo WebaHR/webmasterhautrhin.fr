@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Demande de devis — Webmaster Haut-Rhin",
@@ -27,6 +28,8 @@ const process = [
 
 export default function DevisPage() {
   return (
+    <>
+      <Breadcrumbs items={[{ label: "Demande de devis" }]} />
     <section className="py-16 sm:py-20">
       <div className="mx-auto max-w-content px-6">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
