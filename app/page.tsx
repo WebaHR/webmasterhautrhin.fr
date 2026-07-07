@@ -4,8 +4,8 @@ import ServiceSection from "@/components/ServiceSection";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mon site",
-  description: "Description de mon site",
+  title: "Webmaster Haut-Rhin | Création de site internet & Référencement SEO",
+  description: "Webmaster indépendant dans le Haut-Rhin depuis 2012. Création de sites internet, référencement naturel SEO, maintenance WordPress et Next.js à Mulhouse, Colmar, Saint-Louis et partout en Alsace.",
 };
 
 export default function Home() {
