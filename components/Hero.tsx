@@ -65,7 +65,7 @@ export default function Hero() {
         <div className="fade-up" style={{ animationDelay: "0.1s" }}>
           <Image
             src="/images/webmasterhautrhin.png"
-            alt="Description de l'image"
+            alt="création de site internet dans le haut rhin"
             width={800}
             height={600}
             className="rounded-lg"
