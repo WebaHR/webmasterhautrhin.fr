@@ -123,7 +123,7 @@ export default function ContactForm({
           strategy="afterInteractive"
         />
       )}
-      <p className="eyebrow">Devis gratuit</p>
+      
       <h3 className="mt-2 font-display text-xl font-semibold text-ink sm:text-2xl">
         {title}
       </h3>
