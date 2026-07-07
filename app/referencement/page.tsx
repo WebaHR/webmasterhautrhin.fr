@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import RelatedLinks from "@/components/RelatedLinks";
 
 const PAGE_URL = "https://webmasterhautrhin.fr/referencement";
 const SITE_NAME = "Webmaster Haut-Rhin";
@@ -154,6 +156,8 @@ export default function ReferencementPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
+      <Breadcrumbs items={[{ label: "Référencement" }]} />
+      
       <section className="border-b border-line py-16 sm:py-20">
         <div className="mx-auto grid max-w-content items-center gap-12 px-6 lg:grid-cols-2 lg:gap-16">
           <div>
@@ -165,6 +169,11 @@ export default function ReferencementPage() {
               Un site bien construit ne suffit pas s&apos;il reste introuvable.
               Un travail supplémentaire sur le référencement naturel de votre site est nécessaire
               pour qu&apos;il apparaisse dans les recherches de vos clients, sans dépendre uniquement de la publicité payante.
+              Vous n&apos;avez pas encore de site ? Découvrez notre offre de{" "}
+              <Link href="/creation-site-internet" className="text-ink underline hover:text-accent">
+                création de site internet
+              </Link>{" "}
+              dans le Haut-Rhin.
             </p>
             <Link
               href="/devis"
@@ -218,6 +227,21 @@ export default function ReferencementPage() {
         </div>
       </section>
 
+     <RelatedLinks
+        links={[
+          {
+            href: "/creation-site-internet",
+            label: "Création de site internet",
+            text: "Vous n'avez pas encore de site, ou le vôtre mérite un renouveau ? Découvrez nos sites vitrines et e-commerce sur mesure.",
+          },
+          {
+            href: "/realisations",
+            label: "Nos réalisations",
+            text: "Découvrez des exemples d'entreprises du Haut-Rhin dont nous avons amélioré la visibilité sur Google.",
+          },
+        ]}
+      />
+      
       <section className="bg-ink py-16 text-paper sm:py-20">
         <div className="mx-auto max-w-content px-6 text-center">
           <p className="eyebrow on-dark">Prêt à progresser sur Google ?</p>
