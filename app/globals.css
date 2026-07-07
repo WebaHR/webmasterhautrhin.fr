@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Space Grotesk", "Arial", sans-serif;
+  --font-body: "Inter", "Arial", sans-serif;
+  --font-mono: "IBM Plex Mono", "Courier New", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(180deg, #F2F8FD 0%, #DCEDFA 45%, #C7E0F3 100%) fixed;
+  color: #000000;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: #8A2B0E;
+  color: #F2F8FD;
+}
+
+/* Focus visibility for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #8A2B0E;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8A2B0E;
+}
+
+/* Higher-specificity variant for eyebrow labels sitting on dark backgrounds,
+   using a lighter terracotta tint so the label stays legible on black. */
+.eyebrow.on-dark {
+  color: #D98F6F;
+}
+
+.section-heading {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* Signature element: the "river" line threading through the services list,
+   echoing the Rhine running through the Haut-Rhin region and the flow of a
+   project from creation through to long-term maintenance. */
+.river-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  transform: translateX(-50%);
+  background: repeating-linear-gradient(
+    to bottom,
+    #8A2B0E 0,
+    #8A2B0E 6px,
+    transparent 6px,
+    transparent 14px
+  );
+  opacity: 0.35;
+}
+
+.river-node {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 13px;
+  height: 13px;
+  border-radius: 999px;
+  background: #F2F8FD;
+  border: 2px solid #8A2B0E;
+  z-index: 10;
+}
+
+.card-shadow {
+  box-shadow: 0 1px 2px rgba(20, 24, 31, 0.04), 0 12px 32px -12px rgba(20, 24, 31, 0.14);
+}
+
+/* Dark, near-black grey gradients used on the header (translucent, for the
+   sticky/backdrop-blur effect) and the footer (solid). */
+.header-gradient {
+  background: linear-gradient(
+    120deg,
+    rgba(5, 5, 5, 0.92) 0%,
+    rgba(32, 32, 32, 0.92) 55%,
+    rgba(8, 8, 8, 0.92) 100%
+  );
+}
+
+.footer-gradient {
+  background: linear-gradient(160deg, #050505 0%, #222222 55%, #060606 100%);
+}
+
+.step-gradient {
+  background: linear-gradient(180deg, #050505 0%, #2a2a2a  55%, #060606 100%);
+}
+
+.fade-up {
+  animation: fadeUp 0.7s ease both;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
