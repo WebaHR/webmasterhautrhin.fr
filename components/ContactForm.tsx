@@ -106,8 +106,7 @@ export default function ContactForm({
         </div>
         <h3 className="font-display text-xl font-semibold text-ink">Demande envoyée</h3>
         <p className="mt-2 max-w-xs text-sm text-slate">
-          Merci ! Nous revenons vers vous sous 24h ouvrées avec les premières
-          pistes pour votre projet.
+          Merci ! Je vous recontact sous 24h (hors week end)
         </p>
       </div>
     );
