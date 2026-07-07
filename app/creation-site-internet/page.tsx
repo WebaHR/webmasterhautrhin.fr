@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const PAGE_URL = "https://webmasterhautrhin.fr/creation-site-internet";
 const SITE_NAME = "Webmaster Haut-Rhin";
-const OG_IMAGE = "https://webmasterhautrhin.fr/images/og-creation-site-internet-haut-rhin.jpg";
+const OG_IMAGE = "https://webmasterhautrhin.fr/images/creationsiteinternet.png";
 
 export const metadata: Metadata = {
   title: "Création de site internet dans le Haut-Rhin | Webmaster Haut-Rhin",
