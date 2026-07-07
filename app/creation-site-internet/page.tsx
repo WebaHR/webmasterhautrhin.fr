@@ -147,6 +147,8 @@ export default function CreationSitePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
+      <Breadcrumbs items={[{ label: "Création de site internet" }]} />
+      
       <section className="border-b border-line py-16 sm:py-20">
         <div className="mx-auto max-w-content px-6">
           <p className="eyebrow">Nos prestations</p>
@@ -156,7 +158,13 @@ export default function CreationSitePage() {
           <p className="mt-5 max-w-xl text-base leading-relaxed text-slate">
             Chaque projet est développé sur mesure : avec ou sans thème et
             fonctionnalités adaptées. Uniquement ce dont votre activité
-            a besoin pour être trouvée, comprise et contactée.
+            a besoin pour être trouvée, comprise et contactée. Une fois votre
+            site en ligne, pensez aussi au{" "}
+            <Link href="/referencement" className="text-ink underline hover:text-accent">
+              référencement de site internet
+            </Link>{" "}
+            pour qu&apos;il soit trouvé sur Google par vos futurs clients du
+            Haut-Rhin.
           </p>
         </div>
       </section>
@@ -241,6 +249,21 @@ export default function CreationSitePage() {
         </div>
       </section>
 
+      <RelatedLinks
+        links={[
+          {
+            href: "/referencement",
+            label: "Référencement de site internet",
+            text: "Faites en sorte que votre nouveau site soit trouvé sur Google par vos clients du Haut-Rhin grâce au référencement naturel et local.",
+          },
+          {
+            href: "/realisations",
+            label: "Nos réalisations",
+            text: "Découvrez des exemples de sites vitrines et e-commerce créés pour des artisans et commerçants du Haut-Rhin.",
+          },
+        ]}
+      />
+      
       <section className="bg-ink py-16 text-paper sm:py-20">
         <div className="mx-auto max-w-content px-6 text-center">
           <p className="eyebrow on-dark">Étape suivante</p>
