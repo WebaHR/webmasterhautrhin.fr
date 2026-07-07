@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { IllustrationCreation, IllustrationEcommerce } from "@/components/Illustrations";
+import Image from "next/image";
 
 const PAGE_URL = "https://webmasterhautrhin.fr/creation-site-internet";
 const SITE_NAME = "Webmaster Haut-Rhin";
@@ -140,6 +140,11 @@ const ecommerceIncludes = [
 export default function CreationSitePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       <section className="border-b border-line py-16 sm:py-20">
         <div className="mx-auto max-w-content px-6">
           <p className="eyebrow">Nos prestations</p>
@@ -157,12 +162,12 @@ export default function CreationSitePage() {
       <section className="border-b border-line py-16 sm:py-20">
         <div className="mx-auto grid max-w-content items-center gap-12 px-6 lg:grid-cols-2 lg:gap-16">
           <Image
-                                src="/images/creationsiteinternet.png"
-                                alt="Description de l'image"
-                                width={800}
-                                height={600}
-                                className="rounded-lg"
-                              />
+            src="/images/creationsiteinternet.png"
+            alt="Description de l'image"
+            width={800}
+            height={600}
+            className="rounded-lg"
+          />
           <div>
             <p className="eyebrow">Site vitrine</p>
             <h2 className="section-heading mt-3 text-2xl text-ink sm:text-3xl">
@@ -187,13 +192,13 @@ export default function CreationSitePage() {
       <section id="ecommerce" className="border-b border-line bg-paperdim/50 py-16 sm:py-20">
         <div className="mx-auto grid max-w-content items-center gap-12 px-6 lg:grid-cols-2 lg:gap-16">
           <div className="lg:order-2">
-             <Image
-                                src="/images/creationsiteecommerce.png"
-                                alt="Description de l'image"
-                                width={800}
-                                height={600}
-                                className="rounded-lg"
-                              />
+            <Image
+              src="/images/creationsiteecommerce.png"
+              alt="Description de l'image"
+              width={800}
+              height={600}
+              className="rounded-lg"
+            />
           </div>
           <div className="lg:order-1">
             <p className="eyebrow">Site e-commerce</p>
@@ -236,7 +241,7 @@ export default function CreationSitePage() {
 
       <section className="bg-ink py-16 text-paper sm:py-20">
         <div className="mx-auto max-w-content px-6 text-center">
-          <p className="eyebrow text-gold">Étape suivante</p>
+          <p className="eyebrow on-dark">Étape suivante</p>
           <h2 className="section-heading mt-3 text-2xl text-paper sm:text-3xl">
             Décrivez-nous votre projet en 2 minutes.
           </h2>
