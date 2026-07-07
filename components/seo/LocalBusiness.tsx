@@ -8,7 +8,7 @@ export const localBusiness = {
 
   url: "https://webmasterhautrhin.fr",
 
-  image: "/images/webmasterhautrhin-2.png",
+  image: "https://webmasterhautrhin.fr/images/webmasterhautrhin-2.png",
 
   telephone: "+33663608012",
 
