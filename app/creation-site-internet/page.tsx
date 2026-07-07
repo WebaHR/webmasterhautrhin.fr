@@ -110,41 +110,36 @@ const steps = [
   {
     n: "02",
     title: "Maquette & contenus",
-    text: "Proposition de structure et de design, rédaction des textes avec vous, choix des visuels.",
+    text: "Proposition de structure et de design, conseil pour la rédaction de contenu, insertion des textes et images.",
   },
   {
     n: "03",
     title: "Développement",
-    text: "Intégration du site, tests sur mobile et ordinateur, vérification de la vitesse de chargement.",
+    text: "Intégration du site, tests sur mobile et ordinateur, optimisation technique pour le SEO.",
   },
   {
     n: "04",
     title: "Mise en ligne",
-    text: "Connexion de votre nom de domaine, activation du certificat de sécurité, formation à la prise en main.",
+    text: "Connexion de votre nom de domaine, activation du certificat SSL, formation à la prise en main.",
   },
 ];
 
 const vitrineIncludes = [
-  "Jusqu'à 6 pages (accueil, prestations, à propos, contact...)",
+  "Conception des pages du site (accueil, prestations, à propos, contact...)",
   "Design responsive, adapté à tous les écrans",
   "Formulaire de contact et plan d'accès",
-  "Nom de domaine et certificat de sécurité la première année",
 ];
 
 const ecommerceIncludes = [
-  "Catalogue produits illimité avec variantes",
+  "Catalogue produits",
   "Paiement en ligne sécurisé (carte bancaire, virement)",
-  "Gestion des stocks et des commandes en autonomie",
+  "Gestion des stocks",
   "Livraison, retrait en boutique ou zones de livraison",
 ];
 
 export default function CreationSitePage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
       <section className="border-b border-line py-16 sm:py-20">
         <div className="mx-auto max-w-content px-6">
           <p className="eyebrow">Nos prestations</p>
@@ -152,8 +147,8 @@ export default function CreationSitePage() {
             Un site internet ou une boutique en ligne construite pour durer.
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-slate">
-            Chaque projet est développé sur mesure : pas de thème générique,
-            pas de fonctionnalités inutiles. Uniquement ce dont votre activité
+            Chaque projet est développé sur mesure : avec ou sans thème et
+            fonctionnalités adaptées. Uniquement ce dont votre activité
             a besoin pour être trouvée, comprise et contactée.
           </p>
         </div>
@@ -161,15 +156,21 @@ export default function CreationSitePage() {
 
       <section className="border-b border-line py-16 sm:py-20">
         <div className="mx-auto grid max-w-content items-center gap-12 px-6 lg:grid-cols-2 lg:gap-16">
-          <IllustrationCreation className="mx-auto w-full max-w-md" />
+          <Image
+                                src="/images/creationsiteinternet.png"
+                                alt="Description de l'image"
+                                width={800}
+                                height={600}
+                                className="rounded-lg"
+                              />
           <div>
             <p className="eyebrow">Site vitrine</p>
             <h2 className="section-heading mt-3 text-2xl text-ink sm:text-3xl">
-              Présenter votre activité clairement
+              Présenter votre activité de façon claire et professionnelle
             </h2>
             <p className="mt-4 max-w-md leading-relaxed text-slate">
               Idéal pour les artisans, professions libérales et commerces qui
-              veulent un site clair, rapide et facile à mettre à jour.
+              veulent un site clair, rapide et visible.
             </p>
             <ul className="mt-6 space-y-3">
               {vitrineIncludes.map((item) => (
@@ -186,7 +187,13 @@ export default function CreationSitePage() {
       <section id="ecommerce" className="border-b border-line bg-paperdim/50 py-16 sm:py-20">
         <div className="mx-auto grid max-w-content items-center gap-12 px-6 lg:grid-cols-2 lg:gap-16">
           <div className="lg:order-2">
-            <IllustrationEcommerce className="mx-auto w-full max-w-md" />
+             <Image
+                                src="/images/creationsiteecommerce.png"
+                                alt="Description de l'image"
+                                width={800}
+                                height={600}
+                                className="rounded-lg"
+                              />
           </div>
           <div className="lg:order-1">
             <p className="eyebrow">Site e-commerce</p>
@@ -194,9 +201,8 @@ export default function CreationSitePage() {
               Vendre en ligne, sans complexité
             </h2>
             <p className="mt-4 max-w-md leading-relaxed text-slate">
-              Une boutique que vous gérez vous-même au quotidien : ajout de
-              produits, suivi des commandes et des stocks, sans compétence
-              technique requise.
+              Une boutique gérable au quotidien : ajout de
+              produits, suivi des commandes et des stocks, gestion des expéditions et de livraisons,...
             </p>
             <ul className="mt-6 space-y-3">
               {ecommerceIncludes.map((item) => (
@@ -230,7 +236,7 @@ export default function CreationSitePage() {
 
       <section className="bg-ink py-16 text-paper sm:py-20">
         <div className="mx-auto max-w-content px-6 text-center">
-          <p className="eyebrow on-dark">Étape suivante</p>
+          <p className="eyebrow text-gold">Étape suivante</p>
           <h2 className="section-heading mt-3 text-2xl text-paper sm:text-3xl">
             Décrivez-nous votre projet en 2 minutes.
           </h2>
