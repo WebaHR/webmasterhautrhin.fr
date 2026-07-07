@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { IllustrationSeo } from "@/components/Illustrations";
+
+const PAGE_URL = "https://webmasterhautrhin.fr/referencement";
+const SITE_NAME = "Webmaster Haut-Rhin";
+const OG_IMAGE = "https://webmasterhautrhin.fr/images/og-referencement-haut-rhin.jpg";
 
 export const metadata: Metadata = {
   title: "Référencement de site internet dans le Haut-Rhin | Webmaster Haut-Rhin",
@@ -89,9 +92,68 @@ const faqs = [
   },
 ];
 
+// Données structurées (JSON-LD) : schéma Service ciblant le Haut-Rhin, fil
+// d'Ariane, et FAQPage généré à partir des questions affichées sur la page.
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": `${PAGE_URL}#service`,
+      name: "Référencement de site internet dans le Haut-Rhin",
+      description:
+        "Référencement naturel (SEO) et référencement local pour les artisans, commerçants et indépendants du Haut-Rhin.",
+      url: PAGE_URL,
+      areaServed: {
+        "@type": "AdministrativeArea",
+        name: "Haut-Rhin",
+      },
+      provider: {
+        "@type": "ProfessionalService",
+        name: SITE_NAME,
+        url: "https://webmasterhautrhin.fr",
+        areaServed: "Haut-Rhin",
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Accueil",
+          item: "https://webmasterhautrhin.fr",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Référencement",
+          item: PAGE_URL,
+        },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.q,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: faq.a,
+        },
+      })),
+    },
+  ],
+};
+
 export default function ReferencementPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       <section className="border-b border-line py-16 sm:py-20">
         <div className="mx-auto grid max-w-content items-center gap-12 px-6 lg:grid-cols-2 lg:gap-16">
           <div>
@@ -101,8 +163,8 @@ export default function ReferencementPage() {
             </h1>
             <p className="mt-5 max-w-md leading-relaxed text-slate">
               Un site bien construit ne suffit pas s&apos;il reste introuvable.
-              Un travail supplémentaire sur le référencement naturel de votre site pour est nécessaire
-              qu&apos;il apparaisse dans les recherches de vos clients du, sans dépendre uniquement de la publicité payante.
+              Un travail supplémentaire sur le référencement naturel de votre site est nécessaire
+              pour qu&apos;il apparaisse dans les recherches de vos clients, sans dépendre uniquement de la publicité payante.
             </p>
             <Link
               href="/devis"
@@ -112,13 +174,13 @@ export default function ReferencementPage() {
               <span aria-hidden>→</span>
             </Link>
           </div>
-           <Image
-                                          src="/images/referencementsiteinternet.png"
-                                          alt="Description de l'image"
-                                          width={800}
-                                          height={600}
-                                          className="rounded-lg"
-                                        />
+          <Image
+            src="/images/referencementsiteinternet.png"
+            alt="Description de l'image"
+            width={800}
+            height={600}
+            className="rounded-lg"
+          />
         </div>
       </section>
 
@@ -158,7 +220,7 @@ export default function ReferencementPage() {
 
       <section className="bg-ink py-16 text-paper sm:py-20">
         <div className="mx-auto max-w-content px-6 text-center">
-          <p className="eyebrow text-gold">Prêt à progresser sur Google ?</p>
+          <p className="eyebrow on-dark">Prêt à progresser sur Google ?</p>
           <h2 className="section-heading mt-3 text-2xl text-paper sm:text-3xl">
             Recevez un audit de votre visibilité actuelle.
           </h2>
