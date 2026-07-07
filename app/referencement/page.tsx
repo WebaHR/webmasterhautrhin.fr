@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const PAGE_URL = "https://webmasterhautrhin.fr/referencement";
 const SITE_NAME = "Webmaster Haut-Rhin";
-const OG_IMAGE = "https://webmasterhautrhin.fr/images/og-referencement-haut-rhin.jpg";
+const OG_IMAGE = "https://webmasterhautrhin.fr/images/referencementsiteinternet.png";
 
 export const metadata: Metadata = {
   title: "Référencement de site internet dans le Haut-Rhin | Webmaster Haut-Rhin",
