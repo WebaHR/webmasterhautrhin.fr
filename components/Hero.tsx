@@ -13,7 +13,8 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden border-b border-line">
       <h1 className="mt-8 text-center font-display text-4xl font-semibold text-ink sm:text-5xl md:text-6xl lg:text-7xl">
-  Webmaster
+  Création de site internet
+        dans le
   <span className="text-accent"> haut-rhin</span>
 </h1>
           <h2 className="eyebrow text-center">Webmaster indépendant — Mulhouse · Colmar · Haut-Rhin</h2>
