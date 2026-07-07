@@ -4,9 +4,55 @@ import Link from "next/link";
 import { IllustrationSeo } from "@/components/Illustrations";
 
 export const metadata: Metadata = {
-  title: "Référencement (SEO) local — Webmaster Haut-Rhin",
+  title: "Référencement de site internet dans le Haut-Rhin | Webmaster Haut-Rhin",
   description:
-    "Améliorez votre visibilité sur Google dans le Haut-Rhin : référencement naturel, fiche établissement et suivi de position. Devis gratuit.",
+    "Référencement de site internet dans le Haut-Rhin : améliorez votre visibilité sur Google à Mulhouse, Colmar et alentours grâce au référencement naturel (SEO) et local. Audit gratuit.",
+  keywords: [
+    "référencement de site internet",
+    "référencement site internet Haut-Rhin",
+    "référencement naturel Mulhouse",
+    "référencement local Colmar",
+    "SEO Haut-Rhin",
+    "agence référencement Alsace",
+  ],
+  alternates: {
+    canonical: PAGE_URL,
+  },
+  openGraph: {
+    title: "Référencement de site internet dans le Haut-Rhin | Webmaster Haut-Rhin",
+    description:
+      "Améliorez votre visibilité sur Google dans le Haut-Rhin : référencement naturel, fiche établissement optimisée et suivi de position. Audit gratuit sous 24h.",
+    url: PAGE_URL,
+    siteName: SITE_NAME,
+    locale: "fr_FR",
+    type: "website",
+    images: [
+      {
+        url: OG_IMAGE,
+        width: 1200,
+        height: 630,
+        alt: "Référencement de site internet dans le Haut-Rhin — Webmaster Haut-Rhin",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Référencement de site internet dans le Haut-Rhin | Webmaster Haut-Rhin",
+    description:
+      "Améliorez votre visibilité sur Google dans le Haut-Rhin grâce au référencement naturel et local. Audit gratuit sous 24h.",
+    images: [OG_IMAGE],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
 };
 
 const pillars = [
