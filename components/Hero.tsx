@@ -74,12 +74,12 @@ export default function Hero() {
           <p className="eyebrow text-center">SEO · SEA · Hébergement · Maintenance</p>
         </div>
       </div>
-      <div className="mx-auto grid max-w-content gap-12 px-6 py-16 sm:py-20">
-      <h2 className="mt-4 font-display text-4xl font-semibold leading-[1.08] tracking-tight text-ink sm:text-5xl lg:text-[2.5rem]">
-Nos services de création de site internet dans le Haut-Rhin
+      <div className="mx-auto grid max-w-content gap-12 px-6 py-16">
+      <h2 className="mt-4 font-display text-4xl font-semibold leading-[1.08] tracking-tight text-ink sm:text-5xl lg:text-[2.5rem] text-center">
+Mes services de création de site internet dans le Haut-Rhin
 </h2>
 
-<p>
+<p className="text-center">
 J'accompagne les indépendants du haut-Rhin et de l'Alsace dans l'amélioration de leur visibilité par la mise en place d'actions adaptées à leur métier.
   L'objectif étant d'élargir le champ d'action en captant une clientèle par l'intermédiaire d'internet.
 </p> </div> 
