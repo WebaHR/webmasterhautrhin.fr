@@ -180,27 +180,6 @@ export default function CreationSitePage() {
         </div>
       </section>
 
-      
-      <section className="border-b border-line py-16 sm:py-20">
-        <div className="mx-auto max-w-content px-6">
-          <p className="eyebrow">Mes prestations</p>
-          <h1 className="section-heading mt-3 max-w-2xl text-3xl text-ink sm:text-4xl">
-            Un site internet ou une boutique en ligne construite pour durer.
-          </h1>
-          <p className="mt-5 max-w-xl text-base leading-relaxed text-slate">
-            Chaque projet est développé sur mesure : avec ou sans thème et
-            fonctionnalités adaptées. Uniquement ce dont votre activité
-            a besoin pour être trouvée, comprise et contactée. Une fois votre
-            site en ligne, pensez aussi au{" "}
-            <Link href="/referencement" className="text-ink underline hover:text-accent">
-              référencement de site internet
-            </Link>{" "}
-            pour qu&apos;il soit trouvé sur Google par vos futurs clients du
-            Haut-Rhin.
-          </p>
-        </div>
-      </section>
-
       <section className="border-b border-line py-16 sm:py-20">
         <div className="mx-auto grid max-w-content items-center gap-12 px-6 lg:grid-cols-2 lg:gap-16">
           <Image
