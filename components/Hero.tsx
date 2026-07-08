@@ -38,7 +38,7 @@ export default function Hero() {
             href="/realisations"
             className="mt-8 inline-flex items-center gap-2 rounded-full border border-ink px-6 py-3 text-sm font-medium text-ink transition-colors hover:border-accent hover:text-accent"
           >
-            Nos réalisations
+            Réalisations
             <span aria-hidden>→</span>
           </Link>
           </div>
