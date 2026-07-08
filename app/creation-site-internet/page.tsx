@@ -154,7 +154,7 @@ export default function CreationSitePage() {
           <div className="lg:order-2">
             <Image
               src="/images/visibiliteinternet.png"
-              alt="Création de boutique e-commerce dans le Haut-Rhin"
+              alt="Création de site internet dans le Haut-Rhin"
               width={800}
               height={600}
               className="rounded-lg"
