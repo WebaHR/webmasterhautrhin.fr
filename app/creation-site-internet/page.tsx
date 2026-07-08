@@ -161,7 +161,7 @@ export default function CreationSitePage() {
             />
           </div>
           <div className="lg:order-1">
-            <p className="eyebrow">Site e-commerce</p>
+            <p className="eyebrow">Site internet</p>
             <h1 className="section-heading mt-3 max-w-2xl text-3xl text-ink sm:text-4xl">
             Un site internet ou une boutique en ligne construite pour durer.
           </h1>
