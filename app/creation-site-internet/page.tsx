@@ -148,6 +148,39 @@ export default function CreationSitePage() {
       />
 
       <Breadcrumbs items={[{ label: "Création de site internet" }]} />
+
+      <section id="ecommerce" className="border-b border-line bg-paperdim/50 py-16 sm:py-20">
+        <div className="mx-auto grid max-w-content items-center gap-12 px-6 lg:grid-cols-2 lg:gap-16">
+          <div className="lg:order-2">
+            <Image
+              src="/images/creationsiteecommerce.png"
+              alt="Création de boutique e-commerce dans le Haut-Rhin"
+              width={800}
+              height={600}
+              className="rounded-lg"
+            />
+          </div>
+          <div className="lg:order-1">
+            <p className="eyebrow">Site e-commerce</p>
+            <h2 className="section-heading mt-3 text-2xl text-ink sm:text-3xl">
+              Vendre en ligne, sans complexité
+            </h2>
+            <p className="mt-4 max-w-md leading-relaxed text-slate">
+              Une boutique gérable au quotidien : ajout de
+              produits, suivi des commandes et des stocks, gestion des expéditions et de livraisons,...
+            </p>
+            <ul className="mt-6 space-y-3">
+              {ecommerceIncludes.map((item) => (
+                <li key={item} className="flex items-start gap-3 text-sm text-ink">
+                  <span className="mt-1 h-1.5 w-1.5 flex-none rounded-full bg-accent" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
       
       <section className="border-b border-line py-16 sm:py-20">
         <div className="mx-auto max-w-content px-6">
