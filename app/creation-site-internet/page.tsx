@@ -162,13 +162,20 @@ export default function CreationSitePage() {
           </div>
           <div className="lg:order-1">
             <p className="eyebrow">Site e-commerce</p>
-            <h2 className="section-heading mt-3 text-2xl text-ink sm:text-3xl">
-              Vendre en ligne, sans complexité
-            </h2>
-            <p className="mt-4 max-w-md leading-relaxed text-slate">
-              Une boutique gérable au quotidien : ajout de
-              produits, suivi des commandes et des stocks, gestion des expéditions et de livraisons,...
-            </p>
+            <h1 className="section-heading mt-3 max-w-2xl text-3xl text-ink sm:text-4xl">
+            Un site internet ou une boutique en ligne construite pour durer.
+          </h1>
+            <p className="mt-5 max-w-xl text-base leading-relaxed text-slate">
+            Chaque projet est développé sur mesure : avec ou sans thème et
+            fonctionnalités adaptées. Uniquement ce dont votre activité
+            a besoin pour être trouvée, comprise et contactée. Une fois votre
+            site en ligne, pensez aussi au{" "}
+            <Link href="/referencement" className="text-ink underline hover:text-accent">
+              référencement de site internet
+            </Link>{" "}
+            pour qu&apos;il soit trouvé sur Google par vos futurs clients du
+            Haut-Rhin.
+          </p>
             <ul className="mt-6 space-y-3">
               {ecommerceIncludes.map((item) => (
                 <li key={item} className="flex items-start gap-3 text-sm text-ink">
