@@ -153,7 +153,7 @@ export default function CreationSitePage() {
         <div className="mx-auto grid max-w-content items-center gap-12 px-6 lg:grid-cols-2 lg:gap-16">
           <div className="lg:order-2">
             <Image
-              src="/images/creationsiteecommerce.png"
+              src="/images/visibiliteinternet.png"
               alt="Création de boutique e-commerce dans le Haut-Rhin"
               width={800}
               height={600}
