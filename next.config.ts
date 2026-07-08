@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/creation-de-site-internet-haut-rhin",
-        destination: "/creation-de-site-internet",
+        destination: "/creation-site-internet",
         permanent: true,
       },
     ];
