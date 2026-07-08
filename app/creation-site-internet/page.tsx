@@ -151,7 +151,7 @@ export default function CreationSitePage() {
       
       <section className="border-b border-line py-16 sm:py-20">
         <div className="mx-auto max-w-content px-6">
-          <p className="eyebrow">Nos prestations</p>
+          <p className="eyebrow">Mes prestations</p>
           <h1 className="section-heading mt-3 max-w-2xl text-3xl text-ink sm:text-4xl">
             Un site internet ou une boutique en ligne construite pour durer.
           </h1>
