@@ -176,14 +176,6 @@ export default function CreationSitePage() {
             pour qu&apos;il soit trouvé sur Google par vos futurs clients du
             Haut-Rhin.
           </p>
-            <ul className="mt-6 space-y-3">
-              {ecommerceIncludes.map((item) => (
-                <li key={item} className="flex items-start gap-3 text-sm text-ink">
-                  <span className="mt-1 h-1.5 w-1.5 flex-none rounded-full bg-accent" />
-                  {item}
-                </li>
-              ))}
-            </ul>
           </div>
         </div>
       </section>
