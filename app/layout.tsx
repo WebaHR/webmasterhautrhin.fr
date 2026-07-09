@@ -41,6 +41,11 @@ export const metadata: Metadata = {
   description:
     "Webmaster indépendant dans le Haut-Rhin. Création de sites internet, référencement naturel SEO, maintenance WordPress et développement Next.js à Mulhouse, Colmar, Saint-Louis et partout en Alsace.",
 
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  
   keywords: [
     "webmaster haut-rhin",
     "webmaster mulhouse",
