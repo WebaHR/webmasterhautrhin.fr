@@ -8,6 +8,135 @@ const PAGE_URL = "https://webmasterhautrhin.fr/agence-web-mulhouse";
 const SITE_NAME = "Webmaster Haut-Rhin";
 const OG_IMAGE = "https://webmasterhautrhin.fr/images/creationsiteinternet.png";
 
+export const metadata: Metadata = {
+  title: "Agence Web Mulhouse | Création de site internet",
+  description:
+    "Vous recherchez une agence web à Mulhouse pour créer un site internet, améliorer votre visibilité sur Google ou développer votre activité en ligne ?. Devis gratuit sous 24h.",
+  keywords: [
+    "Agence web Mulhouse",
+    "Agence web 68"
+    "Agence web Haut-rhin",
+    "Agence web Colmar",
+    "Agence web Alsace",
+  ],
+  alternates: {
+    canonical: PAGE_URL,
+  },
+  openGraph: {
+    title: "Agence Web Mulhouse | Création de site internet",
+    description:
+      "Sites vitrines et e-commerce sur mesure pour les artisans, commerçants et indépendants du Haut-Rhin. Design sobre, rapide, pensé pour être trouvé sur Google. Devis gratuit sous 24h.",
+    url: PAGE_URL,
+    siteName: SITE_NAME,
+    locale: "fr_FR",
+    type: "website",
+    images: [
+      {
+        url: OG_IMAGE,
+        width: 1200,
+        height: 630,
+        alt: "Création de site internet dans le Haut-Rhin — Webmaster Haut-Rhin",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Création de site internet dans le Haut-Rhin | Webmaster Haut-Rhin",
+    description:
+      "Vous recherchez une agence web à Mulhouse pour créer un site internet, améliorer votre visibilité sur Google ou développer votre activité en ligne ?. Devis gratuit sous 24h.",
+    images: [OG_IMAGE],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
+};
+
+// Données structurées (JSON-LD) : un schéma Service ciblant le Haut-Rhin,
+// et un fil d'Ariane, pour renforcer la pertinence locale aux yeux de Google.
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": `${PAGE_URL}#service`,
+      name: "Agence web Mulhouse",
+      description:
+        "Vous recherchez une agence web à Mulhouse pour créer un site internet, améliorer votre visibilité sur Google ou développer votre activité en ligne ?. Devis gratuit sous 24h.",
+      url: PAGE_URL,
+      areaServed: {
+        "@type": "AdministrativeArea",
+        name: "Haut-Rhin",
+      },
+      provider: {
+        "@type": "ProfessionalService",
+        name: SITE_NAME,
+        url: "https://webmasterhautrhin.fr",
+        areaServed: "Haut-Rhin",
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Accueil",
+          item: "https://webmasterhautrhin.fr",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Création de site internet",
+          item: PAGE_URL,
+        },
+      ],
+    },
+  ],
+};
+
+const steps = [
+  {
+    n: "01",
+    title: "Échange & cadrage",
+    text: "Un rendez-vous (téléphone ou sur place) pour comprendre votre activité, vos clients et vos objectifs.",
+  },
+  {
+    n: "02",
+    title: "Maquette & contenus",
+    text: "Proposition de structure et de design, conseil pour la rédaction de contenu, insertion des textes et images.",
+  },
+  {
+    n: "03",
+    title: "Développement",
+    text: "Intégration du site, tests sur mobile et ordinateur, optimisation technique pour le SEO.",
+  },
+  {
+    n: "04",
+    title: "Mise en ligne",
+    text: "Connexion de votre nom de domaine, activation du certificat SSL, formation à la prise en main.",
+  },
+];
+
+const vitrineIncludes = [
+  "Conception des pages du site (accueil, prestations, à propos, contact...)",
+  "Design responsive, adapté à tous les écrans",
+  "Formulaire de contact et plan d'accès",
+];
+
+const ecommerceIncludes = [
+  "Catalogue produits",
+  "Paiement en ligne sécurisé (carte bancaire, virement)",
+  "Gestion des stocks",
+  "Livraison, retrait en boutique ou zones de livraison",
+];
 
 export default function AgenceWebMulhouse() {
   return (
