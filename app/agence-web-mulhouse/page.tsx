@@ -28,11 +28,7 @@ export default function AgenceWebMulhouse() {
           Une agence web regroupe généralement plusieurs spécialistes :
           développeurs, webdesigners, experts SEO, rédacteurs et chefs de
           projet. Cette organisation convient particulièrement aux projets
-          techniques nécessitant plusieurs compétences.
-        </p>
-
-        <p className="mb-14 rounded-2xl bg-slate-50 p-8">
-          En contrepartie, ce fonctionnement implique souvent davantage
+          techniques nécessitant plusieurs compétences. En contrepartie, ce fonctionnement implique souvent davantage
           d'interlocuteurs, des délais de validation plus longs et un coût plus
           élevé lié à la structure de l'entreprise.
         </p>
