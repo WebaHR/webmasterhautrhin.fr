@@ -20,7 +20,7 @@ export default function AgenceWebMulhouse() {
       </section>
 
       <section className="flex flex-col gap-4">
-        <h2 className="eyebrow text-2xl">
+        <h2 className="eyebrow text-[1.2rem]">
           Agence web Mulhouse : une offre complète
         </h2>
 
