@@ -1,4 +1,4 @@
-export default function SecretPage() {
+export default function AgenceWebMulhouse() {
   return (
     <main>
       <h1>Page privée</h1>
