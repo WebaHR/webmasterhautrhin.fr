@@ -1,45 +1,160 @@
 export default function AgenceWebMulhouse() {
   return (
-    <main>
-      <h1 className="mt-8 text-center font-display text-3xl font-semibold text-ink sm:text-5xl md:text-6xl lg:text-3xl lg:text-[2.8rem]">Agence web Mulhouse ou webmaster indépendant : quelle solution choisir pour votre projet ?</h1>
-      <p>Vous recherchez une agence web à Mulhouse pour créer un site internet, améliorer votre visibilité sur Google ou développer votre activité en ligne ? Avant de confier votre projet à une agence, il peut être intéressant de comparer cette solution avec celle d’un webmaster indépendant. Dans de nombreux cas, un professionnel indépendant offre un accompagnement plus personnalisé, une plus grande réactivité et un excellent rapport qualité-prix.</p>
-      <h2 className="eyebrow text-center mt-4">Agence web Mulhouse : une offre complète</h2>
-      <p>Une agence web réunit généralement plusieurs spécialistes : développeurs, webdesigners, référenceurs SEO, rédacteurs et chefs de projet. Cette organisation permet de gérer des projets complexes nécessitant des compétences variées. Les entreprises ayant des besoins importants ou des développements sur mesure peuvent ainsi bénéficier d’une équipe pluridisciplinaire.
-En contrepartie, le fonctionnement d’une agence implique souvent davantage d’interlocuteurs, des délais de validation plus longs et des coûts liés à la structure de l’entreprise.
-</p>
-    <h2 className="eyebrow text-center mt-4">Pourquoi choisir un webmaster indépendant à Mulhouse ?</h2>
-      <p>Faire appel à un webmaster indépendant permet de bénéficier d’un interlocuteur unique du début à la fin du projet. Vous échangez directement avec la personne qui conçoit, développe, optimise et maintient votre site internet.
-Cette proximité présente plusieurs avantages :
-•	une communication simple et directe ;
-•	des réponses rapides à vos demandes ;
-•	une meilleure compréhension de votre activité ;
-•	un accompagnement personnalisé selon vos objectifs ;
-•	une grande souplesse pour faire évoluer votre site.
-Contrairement à une structure plus importante, le webmaster indépendant adapte ses prestations à vos besoins réels sans vous proposer des services dont vous n’avez pas nécessairement l’utilité.
-</p>
-      <h2 className="eyebrow text-center mt-4">Un meilleur rapport qualité-prix</h2>
-      <p>Lorsque vous comparez une agence web à Mulhouse et un webmaster indépendant, le budget constitue souvent un critère déterminant. Un indépendant supporte généralement moins de frais de structure qu’une agence (locaux, équipe commerciale, gestion administrative plus importante). Cette organisation lui permet souvent de proposer des prestations compétitives tout en consacrant davantage de temps au suivi de ses clients.
-Pour une TPE, une PME, un artisan, un commerçant ou une profession libérale, cette approche représente souvent un excellent compromis entre qualité, accompagnement et maîtrise du budget.
-</p>
-      <h2 className="eyebrow text-center mt-4">Un accompagnement SEO dès la création du site</h2>
-      <p>Créer un beau site internet ne suffit pas : encore faut-il qu’il soit visible sur Google. Un webmaster indépendant peut intégrer les bonnes pratiques du référencement naturel dès la conception du site :
-•	optimisation des balises HTML ;
-•	amélioration de la vitesse de chargement ;
-•	adaptation aux mobiles ;
-•	structure des contenus ;
-•	maillage interne ;
-•	optimisation des images ;
-•	mise en place des données structurées.
-Ces optimisations permettent de construire un site performant, pensé pour les utilisateurs comme pour les moteurs de recherche.
-Une relation durable
-L’un des principaux atouts d’un webmaster indépendant est la relation de confiance qui s’installe au fil du temps. Votre interlocuteur connaît votre activité, vos objectifs et l’historique de votre site. Les évolutions, les mises à jour ou les demandes de modifications sont ainsi réalisées plus rapidement et avec une parfaite connaissance de votre projet.
-Cette continuité facilite également la maintenance, la sécurité, les sauvegardes et les évolutions futures de votre site internet.
-</p>
-      <h2 className="eyebrow text-center mt-4">Agence web Mulhouse ou webmaster indépendant : le bon choix selon vos besoins</h2>
-      <p>Le choix entre une agence web Mulhouse et un webmaster indépendant dépend avant tout de votre projet. Si vous recherchez une équipe dédiée pour un développement très complexe impliquant plusieurs métiers spécialisés, une agence peut être adaptée.
-En revanche, si vous souhaitez un partenaire disponible, réactif, impliqué dans votre réussite et capable de vous accompagner aussi bien dans la création de votre site internet que dans son référencement naturel, un webmaster indépendant constitue souvent une solution particulièrement pertinente.
-En choisissant un professionnel indépendant, vous bénéficiez d’un accompagnement sur mesure, d’un contact direct, d’une grande flexibilité et d’une approche orientée vers les résultats. Pour de nombreuses entreprises de Mulhouse et du Haut-Rhin, cette proximité représente un véritable avantage pour développer durablement leur visibilité en ligne.
-</p>
+    <main className="mx-auto max-w-4xl px-6 py-12">
+
+      <header className="mb-16">
+        <h1 className="font-display text-center text-4xl font-bold leading-tight text-ink sm:text-5xl">
+          Agence web Mulhouse ou webmaster indépendant :
+          <br />
+          quelle solution choisir ?
+        </h1>
+
+        <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-slate-700">
+          Vous recherchez une agence web à Mulhouse pour créer un site internet,
+          améliorer votre visibilité sur Google ou développer votre activité ?
+          Avant de choisir une agence, il est utile de comparer cette solution
+          avec celle d'un webmaster indépendant. Selon votre projet, un
+          accompagnement personnalisé peut offrir davantage de souplesse,
+          de réactivité et un meilleur rapport qualité-prix.
+        </p>
+      </header>
+
+      <section className="mb-14">
+        <h2 className="mb-6 text-3xl font-semibold">
+          L'agence web : une équipe pluridisciplinaire
+        </h2>
+
+        <p className="leading-8 text-slate-700">
+          Une agence web regroupe généralement plusieurs spécialistes :
+          développeurs, webdesigners, experts SEO, rédacteurs et chefs de
+          projet. Cette organisation convient particulièrement aux projets
+          techniques nécessitant plusieurs compétences.
+        </p>
+
+        <p className="mt-4 leading-8 text-slate-700">
+          En contrepartie, ce fonctionnement implique souvent davantage
+          d'interlocuteurs, des délais de validation plus longs et un coût plus
+          élevé lié à la structure de l'entreprise.
+        </p>
+      </section>
+
+      <section className="mb-14 rounded-2xl bg-slate-50 p-8">
+        <h2 className="mb-6 text-3xl font-semibold">
+          Pourquoi choisir un webmaster indépendant ?
+        </h2>
+
+        <p className="mb-6 leading-8 text-slate-700">
+          Avec un webmaster indépendant, vous échangez directement avec la
+          personne qui conçoit, développe, optimise et assure le suivi de votre
+          site internet.
+        </p>
+
+        <ul className="space-y-4 text-slate-700">
+          <li>✓ Un interlocuteur unique du début à la fin.</li>
+          <li>✓ Une communication simple et directe.</li>
+          <li>✓ Des réponses rapides.</li>
+          <li>✓ Une parfaite compréhension de votre activité.</li>
+          <li>✓ Un accompagnement réellement personnalisé.</li>
+          <li>✓ Une grande flexibilité pour faire évoluer votre site.</li>
+        </ul>
+      </section>
+
+      <section className="mb-14">
+        <h2 className="mb-6 text-3xl font-semibold">
+          Un meilleur rapport qualité-prix
+        </h2>
+
+        <p className="leading-8 text-slate-700">
+          Les frais de structure d'un indépendant sont généralement plus faibles
+          que ceux d'une agence. Cela lui permet de proposer des prestations
+          compétitives tout en consacrant davantage de temps au suivi de ses
+          clients.
+        </p>
+
+        <p className="mt-4 leading-8 text-slate-700">
+          Pour les TPE, PME, artisans, commerçants ou professions libérales,
+          cette approche représente souvent le meilleur équilibre entre qualité,
+          accompagnement et budget.
+        </p>
+      </section>
+
+      <section className="mb-14 rounded-2xl bg-slate-50 p-8">
+        <h2 className="mb-6 text-3xl font-semibold">
+          Un site pensé pour le référencement Google
+        </h2>
+
+        <p className="mb-6 leading-8 text-slate-700">
+          Un beau site ne suffit pas : il doit être visible sur Google.
+          Dès sa création, un webmaster indépendant peut intégrer les bonnes
+          pratiques SEO.
+        </p>
+
+        <div className="grid gap-4 sm:grid-cols-2">
+          <div className="rounded-lg border bg-white p-4">
+            Optimisation des balises HTML
+          </div>
+
+          <div className="rounded-lg border bg-white p-4">
+            Vitesse de chargement
+          </div>
+
+          <div className="rounded-lg border bg-white p-4">
+            Site responsive
+          </div>
+
+          <div className="rounded-lg border bg-white p-4">
+            Structure des contenus
+          </div>
+
+          <div className="rounded-lg border bg-white p-4">
+            Maillage interne
+          </div>
+
+          <div className="rounded-lg border bg-white p-4">
+            Données structurées & optimisation des images
+          </div>
+        </div>
+      </section>
+
+      <section className="mb-14">
+        <h2 className="mb-6 text-3xl font-semibold">
+          Un accompagnement durable
+        </h2>
+
+        <p className="leading-8 text-slate-700">
+          Votre webmaster connaît votre activité, votre historique et vos
+          objectifs. Les mises à jour, la maintenance, les évolutions ou les
+          corrections sont ainsi réalisées plus rapidement et avec une parfaite
+          connaissance de votre projet.
+        </p>
+      </section>
+
+      <section className="rounded-3xl bg-primary px-8 py-10 text-white">
+        <h2 className="mb-6 text-3xl font-semibold">
+          Agence web Mulhouse ou indépendant : quel choix ?
+        </h2>
+
+        <p className="leading-8 text-white/90">
+          Si votre projet nécessite une équipe complète et des développements
+          très spécifiques, une agence peut être pertinente.
+        </p>
+
+        <p className="mt-4 leading-8 text-white/90">
+          Si vous recherchez un partenaire disponible, impliqué, réactif et
+          capable de vous accompagner aussi bien dans la création de votre site
+          que dans son référencement naturel, un webmaster indépendant est
+          souvent la solution la plus efficace.
+        </p>
+
+        <div className="mt-8 rounded-xl bg-white/10 p-6">
+          <p className="text-lg font-medium">
+            Un interlocuteur unique, un accompagnement personnalisé et une
+            stratégie orientée résultats pour développer durablement votre
+            visibilité à Mulhouse et dans le Haut-Rhin.
+          </p>
+        </div>
+      </section>
+
     </main>
   );
 }
