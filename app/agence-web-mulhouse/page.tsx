@@ -11,7 +11,7 @@ const OG_IMAGE = "https://webmasterhautrhin.fr/images/creationsiteinternet.png";
 export const metadata: Metadata = {
   title: "Agence Web Mulhouse : pourquoi choisir un webmaster indépendant ? | Création de site internet",
   description:
-    "Vous recherchez une agence web à Mulhouse pour créer un site internet, améliorer votre visibilité sur Google ou développer votre activité en ligne ? Devis gratuit sous 24h.",
+    "Agence web à Mulhouse ou webmaster indépendant ? Découvrez les avantages d'un interlocuteur unique pour créer un site internet performant, optimisé SEO et adapté à votre budget. Devis gratuit sous 24 h.",
   keywords: [
     "Agence web Mulhouse",
     "Agence web 68",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Agence Web Mulhouse : pourquoi choisir un webmaster indépendant ? | Création de site internet",
     description:
-      "Sites vitrines et e-commerce sur mesure pour les artisans, commerçants et indépendants du Haut-Rhin. Design sobre, rapide, pensé pour être trouvé sur Google. Devis gratuit sous 24h.",
+      "Agence web à Mulhouse ou webmaster indépendant ? Découvrez les avantages d'un interlocuteur unique pour créer un site internet performant, optimisé SEO et adapté à votre budget. Devis gratuit sous 24 h.",
     url: PAGE_URL,
     siteName: SITE_NAME,
     locale: "fr_FR",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Agence Web Mulhouse : pourquoi choisir un webmaster indépendant ? | Création de site internet",
     description:
-      "Vous recherchez une agence web à Mulhouse pour créer un site internet, améliorer votre visibilité sur Google ou développer votre activité en ligne ? Devis gratuit sous 24h.",
+      "Agence web à Mulhouse ou webmaster indépendant ? Découvrez les avantages d'un interlocuteur unique pour créer un site internet performant, optimisé SEO et adapté à votre budget. Devis gratuit sous 24 h.",
     images: [OG_IMAGE],
   },
   robots: {
@@ -69,7 +69,7 @@ const jsonLd = {
       "@id": `${PAGE_URL}#service`,
       name: "Agence Web Mulhouse : pourquoi choisir un webmaster indépendant ?",
       description:
-        "Vous recherchez une agence web à Mulhouse pour créer un site internet, améliorer votre visibilité sur Google ou développer votre activité en ligne ? Devis gratuit sous 24h.",
+        "Agence web à Mulhouse ou webmaster indépendant ? Découvrez les avantages d'un interlocuteur unique pour créer un site internet performant, optimisé SEO et adapté à votre budget. Devis gratuit sous 24 h.",
       url: PAGE_URL,
       areaServed: {
         "@type": "AdministrativeArea",
