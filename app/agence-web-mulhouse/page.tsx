@@ -19,7 +19,7 @@ export default function AgenceWebMulhouse() {
         </p>
       </header>
 
-      <section className="mb-14 rounded-2xl bg-slate-50 p-8">
+      <div class="mx-auto grid max-w-content gap-12 px-6 py-16 sm:py-20 lg:grid-cols-[1fr_1fr]">
         <h2 className="mb-6 text-3xl font-semibold">
           L'agence web : une équipe pluridisciplinaire
         </h2>
@@ -32,7 +32,7 @@ export default function AgenceWebMulhouse() {
           d'interlocuteurs, des délais de validation plus longs et un coût plus
           élevé lié à la structure de l'entreprise.
         </p>
-      </section>
+      </div>
 
       <section className="mb-14 rounded-2xl bg-slate-50 p-8">
         <h2 className="mb-6 text-3xl font-semibold">
