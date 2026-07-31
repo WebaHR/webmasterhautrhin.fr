@@ -9,7 +9,7 @@ export default function AgenceWebMulhouse() {
           quelle solution choisir ?
         </h1>
 
-        <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-slate-700">
+        <p className="mb-14 rounded-2xl bg-slate-50 p-8">
           Vous recherchez une agence web à Mulhouse pour créer un site internet,
           améliorer votre visibilité sur Google ou développer votre activité ?
           Avant de choisir une agence, il est utile de comparer cette solution
