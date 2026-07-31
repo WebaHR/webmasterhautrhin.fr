@@ -1,6 +1,6 @@
 export default function AgenceWebMulhouse() {
   return (
-    <main className="mx-auto px-6 py-12">
+    <main className="mx-auto max-w-content gap-12 px-6 py-12">
 
       <header className="mb-16">
         <h1 className="font-display text-center text-4xl font-bold leading-tight text-ink sm:text-5xl">
