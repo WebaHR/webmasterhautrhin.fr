@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import Image from "next/image";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import RelatedLinks from "@/components/RelatedLinks";
+
+const PAGE_URL = "https://webmasterhautrhin.fr/agence-web-mulhouse";
+const SITE_NAME = "Webmaster Haut-Rhin";
+const OG_IMAGE = "https://webmasterhautrhin.fr/images/creationsiteinternet.png";
+
+
 export default function AgenceWebMulhouse() {
   return (
     <main className="mx-auto flex max-w-content flex-col gap-12 px-6 py-12">
