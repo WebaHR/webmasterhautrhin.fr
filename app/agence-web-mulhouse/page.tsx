@@ -19,7 +19,7 @@ export default function AgenceWebMulhouse() {
         </p>
       </header>
 
-      <section className="mb-14">
+      <section className="mb-14 rounded-2xl bg-slate-50 p-8">
         <h2 className="mb-6 text-3xl font-semibold">
           L'agence web : une équipe pluridisciplinaire
         </h2>
