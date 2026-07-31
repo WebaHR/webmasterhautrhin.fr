@@ -11,10 +11,10 @@ const OG_IMAGE = "https://webmasterhautrhin.fr/images/creationsiteinternet.png";
 export const metadata: Metadata = {
   title: "Agence Web Mulhouse | Création de site internet",
   description:
-    "Vous recherchez une agence web à Mulhouse pour créer un site internet, améliorer votre visibilité sur Google ou développer votre activité en ligne ?. Devis gratuit sous 24h.",
+    "Vous recherchez une agence web à Mulhouse pour créer un site internet, améliorer votre visibilité sur Google ou développer votre activité en ligne ? Devis gratuit sous 24h.",
   keywords: [
     "Agence web Mulhouse",
-    "Agence web 68"
+    "Agence web 68",
     "Agence web Haut-rhin",
     "Agence web Colmar",
     "Agence web Alsace",
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Création de site internet dans le Haut-Rhin | Webmaster Haut-Rhin",
+    title: "Agence Web Mulhouse | Création de site internet",
     description:
-      "Vous recherchez une agence web à Mulhouse pour créer un site internet, améliorer votre visibilité sur Google ou développer votre activité en ligne ?. Devis gratuit sous 24h.",
+      "Vous recherchez une agence web à Mulhouse pour créer un site internet, améliorer votre visibilité sur Google ou développer votre activité en ligne ? Devis gratuit sous 24h.",
     images: [OG_IMAGE],
   },
   robots: {
@@ -69,7 +69,7 @@ const jsonLd = {
       "@id": `${PAGE_URL}#service`,
       name: "Agence web Mulhouse",
       description:
-        "Vous recherchez une agence web à Mulhouse pour créer un site internet, améliorer votre visibilité sur Google ou développer votre activité en ligne ?. Devis gratuit sous 24h.",
+        "Vous recherchez une agence web à Mulhouse pour créer un site internet, améliorer votre visibilité sur Google ou développer votre activité en ligne ? Devis gratuit sous 24h.",
       url: PAGE_URL,
       areaServed: {
         "@type": "AdministrativeArea",
@@ -94,7 +94,7 @@ const jsonLd = {
         {
           "@type": "ListItem",
           position: 2,
-          name: "Création de site internet",
+          name: "Agence Web Mulhouse",
           item: PAGE_URL,
         },
       ],
@@ -102,41 +102,6 @@ const jsonLd = {
   ],
 };
 
-const steps = [
-  {
-    n: "01",
-    title: "Échange & cadrage",
-    text: "Un rendez-vous (téléphone ou sur place) pour comprendre votre activité, vos clients et vos objectifs.",
-  },
-  {
-    n: "02",
-    title: "Maquette & contenus",
-    text: "Proposition de structure et de design, conseil pour la rédaction de contenu, insertion des textes et images.",
-  },
-  {
-    n: "03",
-    title: "Développement",
-    text: "Intégration du site, tests sur mobile et ordinateur, optimisation technique pour le SEO.",
-  },
-  {
-    n: "04",
-    title: "Mise en ligne",
-    text: "Connexion de votre nom de domaine, activation du certificat SSL, formation à la prise en main.",
-  },
-];
-
-const vitrineIncludes = [
-  "Conception des pages du site (accueil, prestations, à propos, contact...)",
-  "Design responsive, adapté à tous les écrans",
-  "Formulaire de contact et plan d'accès",
-];
-
-const ecommerceIncludes = [
-  "Catalogue produits",
-  "Paiement en ligne sécurisé (carte bancaire, virement)",
-  "Gestion des stocks",
-  "Livraison, retrait en boutique ou zones de livraison",
-];
 
 export default function AgenceWebMulhouse() {
   return (
