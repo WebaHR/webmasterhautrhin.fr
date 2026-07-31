@@ -9,7 +9,7 @@ const SITE_NAME = "Webmaster Haut-Rhin";
 const OG_IMAGE = "https://webmasterhautrhin.fr/images/creationsiteinternet.png";
 
 export const metadata: Metadata = {
-  title: "Agence Web Mulhouse | Création de site internet",
+  title: "Agence Web Mulhouse : pourquoi choisir un webmaster indépendant ? | Création de site internet",
   description:
     "Vous recherchez une agence web à Mulhouse pour créer un site internet, améliorer votre visibilité sur Google ou développer votre activité en ligne ? Devis gratuit sous 24h.",
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     canonical: PAGE_URL,
   },
   openGraph: {
-    title: "Agence Web Mulhouse | Création de site internet",
+    title: "Agence Web Mulhouse : pourquoi choisir un webmaster indépendant ? | Création de site internet",
     description:
       "Sites vitrines et e-commerce sur mesure pour les artisans, commerçants et indépendants du Haut-Rhin. Design sobre, rapide, pensé pour être trouvé sur Google. Devis gratuit sous 24h.",
     url: PAGE_URL,
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Agence Web Mulhouse | Création de site internet",
+    title: "Agence Web Mulhouse : pourquoi choisir un webmaster indépendant ? | Création de site internet",
     description:
       "Vous recherchez une agence web à Mulhouse pour créer un site internet, améliorer votre visibilité sur Google ou développer votre activité en ligne ? Devis gratuit sous 24h.",
     images: [OG_IMAGE],
@@ -67,7 +67,7 @@ const jsonLd = {
     {
       "@type": "Service",
       "@id": `${PAGE_URL}#service`,
-      name: "Agence web Mulhouse",
+      name: "Agence Web Mulhouse : pourquoi choisir un webmaster indépendant ?",
       description:
         "Vous recherchez une agence web à Mulhouse pour créer un site internet, améliorer votre visibilité sur Google ou développer votre activité en ligne ? Devis gratuit sous 24h.",
       url: PAGE_URL,
@@ -94,7 +94,7 @@ const jsonLd = {
         {
           "@type": "ListItem",
           position: 2,
-          name: "Agence Web Mulhouse",
+          name: "Agence Web Mulhouse : pourquoi choisir un webmaster indépendant ?",
           item: PAGE_URL,
         },
       ],
