@@ -1,7 +1,7 @@
 export default function AgenceWebMulhouse() {
   return (
     <main>
-      <h1>Agence web Mulhouse ou webmaster indépendant : quelle solution choisir pour votre projet ?</h1>
+      <h1 className="mt-8 text-center font-display text-3xl font-semibold text-ink sm:text-5xl md:text-6xl lg:text-3xl lg:text-[2.8rem]">Agence web Mulhouse ou webmaster indépendant : quelle solution choisir pour votre projet ?</h1>
       <p>Vous recherchez une agence web à Mulhouse pour créer un site internet, améliorer votre visibilité sur Google ou développer votre activité en ligne ? Avant de confier votre projet à une agence, il peut être intéressant de comparer cette solution avec celle d’un webmaster indépendant. Dans de nombreux cas, un professionnel indépendant offre un accompagnement plus personnalisé, une plus grande réactivité et un excellent rapport qualité-prix.</p>
       <h2>Agence web Mulhouse : une offre complète</h2>
       <p>Une agence web réunit généralement plusieurs spécialistes : développeurs, webdesigners, référenceurs SEO, rédacteurs et chefs de projet. Cette organisation permet de gérer des projets complexes nécessitant des compétences variées. Les entreprises ayant des besoins importants ou des développements sur mesure peuvent ainsi bénéficier d’une équipe pluridisciplinaire.
