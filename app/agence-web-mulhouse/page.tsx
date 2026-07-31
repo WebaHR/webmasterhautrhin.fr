@@ -24,14 +24,14 @@ export default function AgenceWebMulhouse() {
           L'agence web : une équipe pluridisciplinaire
         </h2>
 
-        <p className="leading-8 text-slate-700">
+        <p className="mb-14 rounded-2xl bg-slate-50 p-8">
           Une agence web regroupe généralement plusieurs spécialistes :
           développeurs, webdesigners, experts SEO, rédacteurs et chefs de
           projet. Cette organisation convient particulièrement aux projets
           techniques nécessitant plusieurs compétences.
         </p>
 
-        <p className="mt-4 leading-8 text-slate-700">
+        <p className="mb-14 rounded-2xl bg-slate-50 p-8">
           En contrepartie, ce fonctionnement implique souvent davantage
           d'interlocuteurs, des délais de validation plus longs et un coût plus
           élevé lié à la structure de l'entreprise.
@@ -43,7 +43,7 @@ export default function AgenceWebMulhouse() {
           Pourquoi choisir un webmaster indépendant ?
         </h2>
 
-        <p className="mb-6 leading-8 text-slate-700">
+        <p className="mb-14 rounded-2xl bg-slate-50 p-8">
           Avec un webmaster indépendant, vous échangez directement avec la
           personne qui conçoit, développe, optimise et assure le suivi de votre
           site internet.
