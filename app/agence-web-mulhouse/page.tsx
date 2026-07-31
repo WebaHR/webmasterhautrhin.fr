@@ -19,7 +19,7 @@ export default function AgenceWebMulhouse() {
         </p>
       </header>
 
-      <div class="mx-auto grid max-w-content gap-12 px-6 py-16 sm:py-20 lg:grid-cols-[1fr_1fr]">
+      <div class="mx-auto grid max-w-content gap-12 px-6 py-16 sm:py-20">
         <h2 className="mb-6 text-3xl font-semibold">
           L'agence web : une équipe pluridisciplinaire
         </h2>
