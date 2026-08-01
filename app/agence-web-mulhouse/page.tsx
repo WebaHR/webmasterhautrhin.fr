@@ -341,6 +341,64 @@ export default function AgenceWebMulhouse() {
         </p>
       </section>
 
+      <section className="rounded-2xl border bg-neutral-50 p-8">
+  <h2 className="mb-6 text-2xl font-semibold">
+    Découvrez également nos services
+  </h2>
+
+  <div className="grid gap-4 md:grid-cols-2">
+
+    <Link
+      href="/creation-site-internet"
+      className="rounded-lg border p-4 transition hover:bg-white hover:shadow"
+    >
+      <h3 className="font-semibold">
+        Création de site internet
+      </h3>
+      <p className="text-sm text-neutral-600">
+        Site vitrine, e-commerce ou sur mesure.
+      </p>
+    </Link>
+
+    <Link
+      href="/referencement-naturel"
+      className="rounded-lg border p-4 transition hover:bg-white hover:shadow"
+    >
+      <h3 className="font-semibold">
+        Référencement naturel SEO
+      </h3>
+      <p className="text-sm text-neutral-600">
+        Améliorez votre visibilité sur Google.
+      </p>
+    </Link>
+
+    <Link
+      href="/maintenance-site-internet"
+      className="rounded-lg border p-4 transition hover:bg-white hover:shadow"
+    >
+      <h3 className="font-semibold">
+        Maintenance de site internet
+      </h3>
+      <p className="text-sm text-neutral-600">
+        Sécurité, mises à jour et assistance.
+      </p>
+    </Link>
+
+    <Link
+      href="/hebergement-web"
+      className="rounded-lg border p-4 transition hover:bg-white hover:shadow"
+    >
+      <h3 className="font-semibold">
+        Hébergement web
+      </h3>
+      <p className="text-sm text-neutral-600">
+        Hébergement performant et sécurisé.
+      </p>
+    </Link>
+
+  </div>
+</section>
+
     </main>
   );
 }
