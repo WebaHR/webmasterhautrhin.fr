@@ -156,19 +156,18 @@ export default function AgenceWebMulhouse() {
         </h2>
 
         <p>
-          Une agence web réunit généralement plusieurs spécialistes :
-          développeurs, webdesigners, référenceurs SEO, rédacteurs et chefs de
-          projet. Cette organisation permet de gérer des projets complexes
+          Une agence web réunit généralement plusieurs spécialistes dn son sein ou en sous-traitance :
+          développeurs, webdesigners, graphiste, référenceurs SEO, rédacteurs et chefs de
+          projet. Cette organisation permet de gérer des projets très volumineux
           nécessitant des compétences variées.
         </p>
 
         <p>
-          Les entreprises ayant des besoins importants ou des développements sur
-          mesure peuvent ainsi bénéficier d'une équipe pluridisciplinaire.
+          Les entreprises ayant des besoins très importants dans ces différentes spécialités peuvent ainsi bénéficier d'une équipe pluridisciplinaire.
         </p>
 
         <p>
-          En contrepartie, le fonctionnement d'une agence implique souvent
+          En contrepartie, le fonctionnement d'une agence implique souvent une certaine rigidité, 
           davantage d'interlocuteurs, des délais de validation plus longs et des
           coûts liés à la structure de l'entreprise.
         </p>
