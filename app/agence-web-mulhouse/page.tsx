@@ -133,7 +133,7 @@ export default function AgenceWebMulhouse() {
   Avant de confier votre projet à une agence, il peut être intéressant de
   comparer cette solution avec celle d'un webmaster indépendant.
 
-  Essayons de déterminer quel serait le meilleur choix pour vous pour vous accompagner sur des prestations de{" "}
+  Essayons de déterminer quel serait le meilleur choix pour vous dans un accompagnement sur des prestations de{" "}
   <Link
     href="/maintenance-site-internet"
     className="text-primary underline hover:no-underline"
