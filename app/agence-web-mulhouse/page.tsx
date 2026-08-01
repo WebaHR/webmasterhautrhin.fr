@@ -133,9 +133,7 @@ export default function AgenceWebMulhouse() {
   Avant de confier votre projet à une agence, il peut être intéressant de
   comparer cette solution avec celle d'un webmaster indépendant.
 
-  Dans de nombreux cas, un professionnel indépendant offre un
-  accompagnement plus personnalisé, une plus grande réactivité et un
-  excellent rapport qualité-prix, notamment grâce à ses prestations de{" "}
+  Essayons de déterminer quel serait le meilleur choix pour vous pour vous accompagner sur des prestations de{" "}
   <Link
     href="/maintenance-site-internet"
     className="text-primary underline hover:no-underline"
