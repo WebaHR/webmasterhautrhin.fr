@@ -114,14 +114,42 @@ export default function AgenceWebMulhouse() {
         </h1>
 
         <p>
-          Vous recherchez une agence web à Mulhouse pour créer un site internet,
-          améliorer votre visibilité sur Google ou développer votre activité en
-          ligne ? Avant de confier votre projet à une agence, il peut être
-          intéressant de comparer cette solution avec celle d'un webmaster
-          indépendant. Dans de nombreux cas, un professionnel indépendant offre
-          un accompagnement plus personnalisé, une plus grande réactivité et un
-          excellent rapport qualité-prix.
-        </p>
+  Vous recherchez une agence web à Mulhouse pour{" "}
+  <Link
+    href="/creation-site-internet"
+    className="text-primary underline hover:no-underline"
+  >
+    créer un site internet
+  </Link>
+  , améliorer votre{" "}
+  <Link
+    href="/referencement-naturel"
+    className="text-primary underline hover:no-underline"
+  >
+    visibilité sur Google
+  </Link>{" "}
+  ou développer votre activité en ligne ?
+
+  Avant de confier votre projet à une agence, il peut être intéressant de
+  comparer cette solution avec celle d'un webmaster indépendant.
+
+  Dans de nombreux cas, un professionnel indépendant offre un
+  accompagnement plus personnalisé, une plus grande réactivité et un
+  excellent rapport qualité-prix, notamment grâce à ses prestations de{" "}
+  <Link
+    href="/maintenance-site-internet"
+    className="text-primary underline hover:no-underline"
+  >
+    maintenance
+  </Link>{" "}
+  et d'
+  <Link
+    href="/hebergement-web"
+    className="text-primary underline hover:no-underline"
+  >
+    hébergement web sécurisé
+  </Link>.
+</p>
       </section>
 
       <section className="flex flex-col gap-4">
