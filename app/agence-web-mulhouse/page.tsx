@@ -318,8 +318,16 @@ export default function AgenceWebMulhouse() {
         <p>
           En revanche, si vous souhaitez un partenaire disponible, réactif,
           impliqué dans votre réussite et capable de vous accompagner aussi bien
-          dans la création de votre site internet que dans son référencement
-          naturel, un webmaster indépendant constitue souvent une solution
+          dans la {" "}
+<Link
+  href="/creation-site-internet"
+  className="text-primary underline hover:no-underline"
+>création de votre site internet</Link>{" "} que dans son {" "}
+<Link
+  href="/referencement-naturel"
+  className="text-primary underline hover:no-underline"
+>référencement
+          naturel</Link>, un webmaster indépendant constitue souvent une solution
           particulièrement pertinente.
         </p>
 
