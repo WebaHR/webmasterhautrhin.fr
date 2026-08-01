@@ -221,7 +221,7 @@ export default function AgenceWebMulhouse() {
         <p>
           Pour une TPE, une PME, un artisan, un commerçant ou une profession
           libérale, cette approche représente souvent un excellent compromis
-          entre qualité, accompagnement et maîtrise du budget.
+          entre qualité, accompagnement, souplesse et maîtrise du budget.
         </p>
       </section>
 
@@ -307,7 +307,7 @@ export default function AgenceWebMulhouse() {
         </p>
 
         <p>
-          Si vous recherchez une équipe dédiée pour un développement complexe
+          Si vous recherchez une équipe dédiée pour un développement nécessitant une intervention pluridisciplinaire
           impliquant plusieurs métiers spécialisés, une agence peut être la
           solution adaptée.
         </p>
