@@ -276,12 +276,26 @@ export default function AgenceWebMulhouse() {
         </p>
 
         <p>
-          Les évolutions, les mises à jour ou les demandes de modifications sont
-          réalisées plus rapidement avec une parfaite connaissance de votre
-          projet. Cette continuité facilite également la maintenance, la
-          sécurité, les sauvegardes et les évolutions futures de votre site
-          internet.
-        </p>
+  Les évolutions, les mises à jour ou les demandes de modifications sont
+  réalisées plus rapidement avec une parfaite connaissance de votre
+  projet.
+
+  Cette continuité facilite également la{" "}
+  <Link
+    href="/maintenance-site-internet"
+    className="text-primary underline hover:no-underline"
+  >
+    maintenance du site
+  </Link>
+  , la sécurité, les sauvegardes ainsi que l'
+  <Link
+    href="/hebergement-web"
+    className="text-primary underline hover:no-underline"
+  >
+    hébergement professionnel
+  </Link>
+  .
+</p>
       </section>
 
       <section className="flex flex-col gap-4">
