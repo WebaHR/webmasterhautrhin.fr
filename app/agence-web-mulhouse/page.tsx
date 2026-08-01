@@ -250,9 +250,18 @@ export default function AgenceWebMulhouse() {
         </ul>
 
         <p>
-          Ces optimisations permettent de construire un site performant, pensé
-          aussi bien pour les utilisateurs que pour les moteurs de recherche.
-        </p>
+  Ces optimisations permettent de construire un site performant, pensé
+  aussi bien pour les utilisateurs que pour les moteurs de recherche.
+
+  Si vous souhaitez aller plus loin, découvrez notre prestation complète de{" "}
+  <Link
+    href="/referencement-naturel"
+    className="text-primary underline hover:no-underline"
+  >
+    référencement naturel
+  </Link>
+  .
+</p>
       </section>
 
       <section className="flex flex-col gap-4">
