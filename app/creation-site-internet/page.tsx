@@ -96,7 +96,7 @@ const jsonLd = {
           "@type": "ListItem",
           position: 2,
           name: "Création de site internet",
-          item: PAGE_URL,
+          item: https://webmasterhautrhin.fr/creation-site-internet,
         },
       ],
     },
