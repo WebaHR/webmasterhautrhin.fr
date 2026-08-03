@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "webmaster Haut-Rhin",
   ],
   alternates: {
-    canonical: PAGE_URL,
+    canonical: https://webmasterhautrhin.fr/creation-site-internet,
   },
   openGraph: {
     title: "Création de site internet dans le Haut-Rhin | Webmaster Haut-Rhin",
