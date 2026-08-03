@@ -101,10 +101,10 @@ const jsonLd = {
 
       provider: {
         "@type": "ProfessionalService",
-
         name: SITE_NAME,
-
         url: "https://webmasterhautrhin.fr",
+        telephone: "0663608012",
+        logo: "https://webmasterhautrhin.fr/_next/image?url=%2Fimages%2Fwebmasterhautrhin-2.png&w=64&q=75",
 
         areaServed: "Haut-Rhin",
       },
