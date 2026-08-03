@@ -27,8 +27,8 @@ export const metadata: Metadata = {
     title: "Création de site internet dans le Haut-Rhin | Webmaster Haut-Rhin",
     description:
       "Sites vitrines et e-commerce sur mesure pour les artisans, commerçants et indépendants du Haut-Rhin. Design sobre, rapide, pensé pour être trouvé sur Google. Devis gratuit sous 24h.",
-    url: PAGE_URL,
-    siteName: SITE_NAME,
+    url: https://webmasterhautrhin.fr/creation-site-internet,
+    siteName: Webmaster Haut-Rhin,
     locale: "fr_FR",
     type: "website",
     images: [
