@@ -10,8 +10,10 @@ const OG_IMAGE = "https://webmasterhautrhin.fr/images/creationsiteinternet.png";
 
 export const metadata: Metadata = {
   title: "Création de site internet dans le Haut-Rhin | Webmaster Haut-Rhin",
+
   description:
     "Création de site internet dans le Haut-Rhin : sites vitrines et e-commerce sur mesure pour artisans, commerçants et indépendants à Mulhouse, Colmar et alentours. Devis gratuit sous 24h.",
+
   keywords: [
     "création de site internet Haut-Rhin",
     "création site internet Mulhouse",
@@ -20,17 +22,25 @@ export const metadata: Metadata = {
     "agence web Haut-Rhin",
     "webmaster Haut-Rhin",
   ],
+
   alternates: {
-    canonical: https://webmasterhautrhin.fr/creation-site-internet,
+    canonical: PAGE_URL,
   },
+
   openGraph: {
     title: "Création de site internet dans le Haut-Rhin | Webmaster Haut-Rhin",
+
     description:
       "Sites vitrines et e-commerce sur mesure pour les artisans, commerçants et indépendants du Haut-Rhin. Design sobre, rapide, pensé pour être trouvé sur Google. Devis gratuit sous 24h.",
-    url: https://webmasterhautrhin.fr/creation-site-internet,
-    siteName: Webmaster Haut-Rhin,
+
+    url: PAGE_URL,
+
+    siteName: SITE_NAME,
+
     locale: "fr_FR",
+
     type: "website",
+
     images: [
       {
         url: OG_IMAGE,
@@ -40,16 +50,22 @@ export const metadata: Metadata = {
       },
     ],
   },
+
   twitter: {
     card: "summary_large_image",
+
     title: "Création de site internet dans le Haut-Rhin | Webmaster Haut-Rhin",
+
     description:
       "Sites vitrines et e-commerce sur mesure pour les artisans, commerçants et indépendants du Haut-Rhin. Devis gratuit sous 24h.",
+
     images: [OG_IMAGE],
   },
+
   robots: {
     index: true,
     follow: true,
+
     googleBot: {
       index: true,
       follow: true,
@@ -59,7 +75,6 @@ export const metadata: Metadata = {
     },
   },
 };
-
 // Données structurées (JSON-LD) : un schéma Service ciblant le Haut-Rhin,
 // et un fil d'Ariane, pour renforcer la pertinence locale aux yeux de Google.
 const jsonLd = {
