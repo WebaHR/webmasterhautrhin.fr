@@ -77,29 +77,42 @@ export const metadata: Metadata = {
 };
 // Données structurées (JSON-LD) : un schéma Service ciblant le Haut-Rhin,
 // et un fil d'Ariane, pour renforcer la pertinence locale aux yeux de Google.
+
 const jsonLd = {
   "@context": "https://schema.org",
+
   "@graph": [
     {
       "@type": "Service",
-      "@id": `https://webmasterhautrhin.fr/creation-site-internet`,
+
+      "@id": `${PAGE_URL}#service`,
+
       name: "Création de site internet dans le Haut-Rhin",
+
       description:
         "Création de sites internet vitrines et e-commerce sur mesure pour les artisans, commerçants et indépendants du Haut-Rhin.",
-      url: https://webmasterhautrhin.fr/creation-site-internet,
+
+      url: PAGE_URL,
+
       areaServed: {
         "@type": "AdministrativeArea",
         name: "Haut-Rhin",
       },
+
       provider: {
         "@type": "ProfessionalService",
-        name: Webmaster Haut-Rhin,
+
+        name: SITE_NAME,
+
         url: "https://webmasterhautrhin.fr",
+
         areaServed: "Haut-Rhin",
       },
     },
+
     {
       "@type": "BreadcrumbList",
+
       itemListElement: [
         {
           "@type": "ListItem",
@@ -107,11 +120,12 @@ const jsonLd = {
           name: "Accueil",
           item: "https://webmasterhautrhin.fr",
         },
+
         {
           "@type": "ListItem",
           position: 2,
           name: "Création de site internet",
-          item: https://webmasterhautrhin.fr/creation-site-internet,
+          item: PAGE_URL,
         },
       ],
     },
