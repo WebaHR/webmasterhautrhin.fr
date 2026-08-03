@@ -104,7 +104,7 @@ const jsonLd = {
         name: SITE_NAME,
         url: "https://webmasterhautrhin.fr",
         telephone: "0663608012",
-        logo: "https://webmasterhautrhin.fr/_next/image?url=%2Fimages%2Fwebmasterhautrhin-2.png&w=64&q=75",
+        logo: "https://raw.githubusercontent.com/WebaHR/webmasterhautrhin.fr/refs/heads/main/public/images/webmasterhautrhin-2.png",
 
         areaServed: "Haut-Rhin",
       },
