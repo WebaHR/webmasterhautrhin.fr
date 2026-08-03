@@ -78,7 +78,7 @@ const jsonLd = {
       },
       provider: {
         "@type": "ProfessionalService",
-        name: SITE_NAME,
+        name: Webmaster Haut-Rhin,
         url: "https://webmasterhautrhin.fr",
         areaServed: "Haut-Rhin",
       },
