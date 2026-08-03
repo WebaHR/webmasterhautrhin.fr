@@ -71,7 +71,7 @@ const jsonLd = {
       name: "Création de site internet dans le Haut-Rhin",
       description:
         "Création de sites internet vitrines et e-commerce sur mesure pour les artisans, commerçants et indépendants du Haut-Rhin.",
-      url: PAGE_URL,
+      url: https://webmasterhautrhin.fr/creation-site-internet,
       areaServed: {
         "@type": "AdministrativeArea",
         name: "Haut-Rhin",
