@@ -67,7 +67,7 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": `${PAGE_URL}#service`,
+      "@id": `https://webmasterhautrhin.fr/creation-site-internet`,
       name: "Création de site internet dans le Haut-Rhin",
       description:
         "Création de sites internet vitrines et e-commerce sur mesure pour les artisans, commerçants et indépendants du Haut-Rhin.",
